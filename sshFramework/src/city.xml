@@ -1,0 +1,4280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<area country="China">
+	<!--
+	<province ID="1" provinceID="000001" province="全国">
+		<city cityID="000001" city="所有城市" />
+	</province>-->
+	<province ID="2" provinceID="110000" province="北京">
+		<City cityID="110101" city="东城区" />
+		<city cityID="110102" city="西城区" />
+		<city cityID="110103" city="崇文区" />
+		<city cityID="110104" city="宣武区" />
+		<city cityID="110105" city="朝阳区" />
+		<city cityID="110106" city="丰台区" />
+		<city cityID="110108" city="海淀区" />
+		<city cityID="110111" city="房山区" />
+		<city cityID="110112" city="通州区" />
+		<city cityID="110113" city="顺义区" />
+		<city cityID="110114" city="昌平区" />
+		<city cityID="110115" city="大兴区" />
+		<city cityID="110116" city="怀柔区" />
+		<city cityID="110117" city="平谷区" />
+		<city cityID="110228" city="密云县" />
+		<city cityID="110229" city="延庆县" />
+		<city cityID="110109" city="门头沟区" />
+		<city cityID="110107" city="石景山区" />
+	</province>
+
+
+	<province ID="3" provinceID="310000" province="上海">
+		<city cityID="310101" city="黄浦区">
+			<Town townID="95" town="半凇园路街道" />
+			<town townID="96" town="董家渡街道" />
+			<town townID="97" town="金陵东路街道" />
+			<town townID="98" town="老西门街道" />
+			<town townID="99" town="南京东路街道" />
+			<town townID="100" town="人民广场街道" />
+			<town townID="101" town="外滩街道" />
+			<town townID="102" town="小东门街道" />
+			<town townID="103" town="豫园街道" />
+		</city>
+		<city cityID="310103" city="卢湾区">
+			<town townID="137" town="打浦桥街道" />
+			<town townID="138" town="淮海中路街道" />
+			<town townID="139" town="瑞金二路街道" />
+			<town townID="140" town="五里桥街道" />
+		</city>
+		<city cityID="310104" city="徐汇区">
+			<town townID="246" town="长桥街道" />
+			<town townID="247" town="枫林路街道" />
+			<town townID="248" town="虹梅路街道" />
+			<town townID="249" town="湖南路街道" />
+			<town townID="250" town="华泾镇" />
+			<town townID="251" town="康健新村街道" />
+			<town townID="252" town="凌云路街道" />
+			<town townID="253" town="龙华街道" />
+			<town townID="254" town="田林街道" />
+			<town townID="255" town="天平路街道" />
+			<town townID="256" town="徐家汇街道" />
+			<town townID="257" town="斜土路街道" />
+			<town townID="258" town="漕河泾街道" />
+		</city>
+		<city cityID="310105" city="长宁区">
+			<town townID="32" town="北新泾街道" />
+			<town townID="35" town="北新泾街道" />
+			<town townID="36" town="程家桥街道" />
+			<town townID="37" town="虹桥街道" />
+			<town townID="38" town="华阳路街道" />
+			<town townID="39" town="江苏路街道" />
+			<town townID="40" town="天山路街道" />
+			<town townID="41" town="仙霞新村街道" />
+			<town townID="42" town="新泾镇" />
+			<town townID="43" town="新华路街道" />
+			<town townID="44" town="政宁小区" />
+			<town townID="45" town="周家桥街道" />
+		</city>
+		<city cityID="310106" city="静安区">
+			<town townID="132" town="曹家渡街道" />
+			<town townID="133" town="江宁路街道" />
+			<town townID="134" town="静安寺街道" />
+			<town townID="135" town="南京西路街道" />
+			<town townID="136" town="石门二路街道" />
+		</city>
+		<city cityID="310107" city="普陀区">
+			<town townID="208" town="曹杨新村街道" />
+			<town townID="209" town="长征镇" />
+			<town townID="210" town="长风新村街道" />
+			<town townID="211" town="长寿路街道" />
+			<town townID="212" town="甘泉路街道" />
+			<town townID="213" town="石泉路街道" />
+			<town townID="214" town="桃浦镇" />
+			<town townID="215" town="宜川路街道" />
+			<town townID="216" town="真如镇" />
+		</city>
+		<city cityID="310108" city="闸北区">
+			<town townID="271" town="宝山路街道" />
+			<town townID="272" town="北站街道" />
+			<town townID="273" town="大宁路街道" />
+			<town townID="274" town="共和新路街道" />
+			<town townID="275" town="临汾路街道" />
+			<town townID="276" town="彭浦新村街道" />
+			<town townID="277" town="彭浦镇" />
+			<town townID="278" town="天目西路街道" />
+			<town townID="279" town="芷江西路街道" />
+		</city>
+		<city cityID="310109" city="虹口区">
+			<town townID="85" town="广中路街道" />
+			<town townID="86" town="嘉兴路街道" />
+			<town townID="87" town="江湾镇" />
+			<town townID="88" town="凉城新村街道" />
+			<town townID="89" town="欧阳路街道" />
+			<town townID="90" town="曲阳路街道" />
+			<town townID="91" town="四川北路街道" />
+			<town townID="92" town="提篮桥街道" />
+			<town townID="93" town="新港路街道" />
+			<town townID="94" town="乍浦路街道" />
+		</city>
+		<city cityID="310110" city="杨浦区">
+			<town townID="259" town="长白新村街道" />
+			<town townID="260" town="大桥街道" />
+			<town townID="261" town="定海路街道" />
+			<town townID="262" town="江浦路街道" />
+			<town townID="263" town="控江路街道" />
+			<town townID="264" town="平凉路街道" />
+			<town townID="265" town="四平路街道" />
+			<town townID="266" town="五角场镇" />
+			<town townID="267" town="五角场街道" />
+			<town townID="268" town="新江湾城街道" />
+			<town townID="269" town="延吉新村街道" />
+			<town townID="270" town="殷行街道" />
+		</city>
+		<city cityID="310112" city="闵行区">
+			<town townID="141" town="北桥镇" />
+			<town townID="142" town="东川路街道" />
+			<town townID="143" town="古美街道" />
+			<town townID="144" town="航华新村街道" />
+			<town townID="145" town="虹桥镇" />
+			<town townID="146" town="华坪路街道" />
+			<town townID="147" town="华漕镇" />
+			<town townID="148" town="江川路街道" />
+			<town townID="149" town="龙柏街道" />
+			<town townID="150" town="马桥镇" />
+			<town townID="151" town="梅陇镇" />
+			<town townID="152" town="浦江镇" />
+			<town townID="153" town="七宝镇" />
+			<town townID="154" town="吴泾镇" />
+			<town townID="155" town="莘庄镇" />
+			<town townID="156" town="颛桥镇" />
+		</city>
+		<city cityID="310113" city="宝山区">
+			<town townID="6" town="宝山镇" />
+			<town townID="7" town="长兴乡" />
+			<town townID="8" town="大场镇" />
+			<town townID="9" town="大华镇" />
+			<town townID="10" town="高境镇" />
+			<town townID="11" town="高泾镇" />
+			<town townID="12" town="高泾一村" />
+			<town townID="13" town="顾村镇" />
+			<town townID="16" town="横沙乡" />
+			<town townID="17" town="海滨新村街道" />
+			<town townID="18" town="沪太路" />
+			<town townID="19" town="刘行镇" />
+			<town townID="20" town="罗店镇" />
+			<town townID="21" town="罗泾镇" />
+			<town townID="22" town="罗南镇" />
+			<town townID="23" town="庙行镇" />
+			<town townID="24" town="祁连镇" />
+			<town townID="25" town="通河新村街道" />
+			<town townID="26" town="吴淞镇街道" />
+			<town townID="27" town="杨行镇" />
+			<town townID="28" town="友谊路街道" />
+			<town townID="29" town="月浦镇" />
+			<town townID="30" town="泗塘新村街道" />
+			<town townID="31" town="淞南镇" />
+			<town townID="33" town="程家桥街道" />
+			<town townID="34" town="虹桥街道" />
+		</city>
+		<city cityID="310114" city="嘉定区">
+			<town townID="104" town="安亭镇" />
+			<town townID="105" town="黄渡镇" />
+			<town townID="106" town="华亭镇" />
+			<town townID="107" town="嘉定镇" />
+			<town townID="108" town="嘉定工业区" />
+			<town townID="109" town="江桥镇" />
+			<town townID="110" town="菊园新区" />
+			<town townID="111" town="马陆镇" />
+			<town townID="112" town="南翔镇" />
+			<town townID="113" town="外冈镇" />
+			<town townID="114" town="徐行镇" />
+			<town townID="115" town="真新新村街道" />
+		</city>
+		<city cityID="310116" city="金山区">
+			<town townID="116" town="枫泾镇" />
+			<town townID="117" town="干巷镇" />
+			<town townID="118" town="金山卫镇" />
+			<town townID="119" town="廊下镇" />
+			<town townID="120" town="吕巷镇" />
+			<town townID="121" town="钱圩镇" />
+			<town townID="122" town="山阳镇" />
+			<town townID="123" town="石化街道" />
+			<town townID="124" town="松隐镇" />
+			<town townID="125" town="亭林镇" />
+			<town townID="126" town="兴塔镇" />
+			<town townID="127" town="新农镇" />
+			<town townID="128" town="张堰镇" />
+			<town townID="129" town="朱行镇" />
+			<town townID="130" town="朱泾镇" />
+			<town townID="131" town="漕泾镇" />
+		</city>
+		<city cityID="310117" city="松江区">
+			<town townID="232" town="车墩街道" />
+			<town townID="233" town="洞泾镇" />
+			<town townID="234" town="方松街道" />
+			<town townID="235" town="九亭镇" />
+			<town townID="236" town="石湖荡镇" />
+			<town townID="237" town="松江镇" />
+			<town townID="238" town="新桥镇" />
+			<town townID="239" town="新浜镇" />
+			<town townID="240" town="叶榭镇" />
+			<town townID="241" town="永丰街道" />
+			<town townID="242" town="中山街道" />
+			<town townID="243" town="佘山镇" />
+			<town townID="244" town="泖港镇" />
+			<town townID="245" town="泗泾镇" />
+		</city>
+		<city cityID="310118" city="青浦区">
+			<town townID="217" town="白鹤镇" />
+			<town townID="218" town="大盈镇" />
+			<town townID="219" town="凤溪镇" />
+			<town townID="220" town="华新镇" />
+			<town townID="221" town="金泽镇" />
+			<town townID="222" town="练塘镇" />
+			<town townID="223" town="青浦镇" />
+			<town townID="224" town="青浦工业园区" />
+			<town townID="225" town="商榻镇" />
+			<town townID="226" town="西岑镇" />
+			<town townID="227" town="徐泾镇" />
+			<town townID="228" town="赵巷镇" />
+			<town townID="229" town="赵屯镇" />
+			<town townID="230" town="重固镇" />
+			<town townID="231" town="朱家角镇" />
+		</city>
+		<city cityID="310119" city="南汇区">
+			<town townID="157" town="大团镇" />
+			<town townID="158" town="东海镇" />
+			<town townID="159" town="航头镇" />
+			<town townID="160" town="黄路镇" />
+			<town townID="161" town="康桥镇" />
+			<town townID="162" town="老港镇" />
+			<town townID="163" town="六灶镇" />
+			<town townID="164" town="芦潮港镇" />
+			<town townID="165" town="泥城镇" />
+			<town townID="166" town="彭镇镇" />
+			<town townID="167" town="三墩镇" />
+			<town townID="168" town="三灶镇" />
+			<town townID="169" town="书院镇" />
+			<town townID="170" town="坦直镇" />
+			<town townID="171" town="万祥镇" />
+			<town townID="172" town="瓦屑镇" />
+			<town townID="173" town="下沙镇" />
+			<town townID="174" town="宣桥镇" />
+			<town townID="175" town="新场镇" />
+			<town townID="176" town="盐仓镇" />
+			<town townID="177" town="周浦镇" />
+			<town townID="178" town="祝桥镇" />
+		</city>
+		<city cityID="310120" city="奉贤区">
+			<town townID="68" town="奉城中心镇" />
+			<town townID="69" town="光明镇" />
+			<town townID="70" town="胡桥镇" />
+			<town townID="71" town="南桥新城" />
+			<town townID="72" town="平安镇" />
+			<town townID="73" town="钱桥镇" />
+			<town townID="74" town="青村镇" />
+			<town townID="75" town="四团镇" />
+			<town townID="76" town="泰日镇" />
+			<town townID="77" town="拓林镇" />
+			<town townID="78" town="五四农场" />
+			<town townID="79" town="西渡镇" />
+			<town townID="80" town="星火农场" />
+			<town townID="81" town="兴桥镇" />
+			<town townID="82" town="新寺镇" />
+			<town townID="83" town="庄行镇" />
+			<town townID="84" town="邬桥镇" />
+		</city>
+		<city cityID="310115" city="浦东新区">
+			<town townID="179" town="北蔡镇" />
+			<town townID="180" town="曹路镇" />
+			<town townID="181" town="川沙城区" />
+			<town townID="182" town="川沙镇" />
+			<town townID="183" town="东明路街道" />
+			<town townID="184" town="东沟镇" />
+			<town townID="185" town="高行镇" />
+			<town townID="186" town="高东镇" />
+			<town townID="187" town="高桥镇" />
+			<town townID="188" town="合庆镇" />
+			<town townID="189" town="机场镇" />
+			<town townID="190" town="花木镇" />
+			<town townID="191" town="沪东新村街道" />
+			<town townID="192" town="金桥镇" />
+			<town townID="193" town="金杨新村街道" />
+			<town townID="194" town="六里镇" />
+			<town townID="195" town="梅园新村街道" />
+			<town townID="196" town="南码头街道" />
+			<town townID="197" town="浦兴路街道" />
+			<town townID="198" town="钦洋镇" />
+			<town townID="199" town="三林镇" />
+			<town townID="200" town="上钢新村街道" />
+			<town townID="201" town="孙桥镇" />
+			<town townID="202" town="唐镇" />
+			<town townID="203" town="塘桥街道" />
+			<town townID="204" town="潍坊新村街道" />
+			<town townID="205" town="洋泾街道" />
+			<town townID="206" town="张江镇" />
+			<town townID="207" town="周家渡街道" />
+		</city>
+		<city cityID="310230" city="崇明县">
+			<town townID="46" town="堡镇" />
+			<town townID="47" town="长江农场" />
+			<town townID="48" town="陈家镇" />
+			<town townID="49" town="长征农场" />
+			<town townID="50" town="城桥镇" />
+			<town townID="51" town="东风农场" />
+			<town townID="52" town="港沿镇" />
+			<town townID="53" town="港西镇" />
+			<town townID="54" town="红星农场" />
+			<town townID="55" town="建设镇" />
+			<town townID="56" town="绿华镇" />
+			<town townID="57" town="庙镇" />
+			<town townID="58" town="前哨农场" />
+			<town townID="59" town="前进农场" />
+			<town townID="60" town="三星镇" />
+			<town townID="61" town="竖新镇" />
+			<town townID="62" town="向化镇" />
+			<town townID="63" town="新海农场" />
+			<town townID="64" town="新村乡" />
+			<town townID="65" town="新河镇" />
+			<town townID="66" town="跃进农场" />
+			<town townID="67" town="中兴镇" />
+		</city>
+	</province>
+
+
+	<province ID="4" provinceID="440000" province="广东">
+		<city cityID="440100" city="广州">
+			<Piecearea townID="440101" town="市辖区" />
+			<town townID="440102" town="东山区" />
+			<town townID="440103" town="荔湾区" />
+			<town townID="440104" town="越秀区" />
+			<town townID="440105" town="海珠区" />
+			<town townID="440106" town="天河区" />
+			<town townID="440107" town="芳村区" />
+			<town townID="440111" town="白云区" />
+			<town townID="440112" town="黄埔区" />
+			<town townID="440113" town="番禺区" />
+			<town townID="440114" town="花都区" />
+			<town townID="440183" town="增城市" />
+			<town townID="440184" town="从化市" />
+		</city>
+		<city cityID="440200" city="韶关">
+			<town townID="440201" town="市辖区" />
+			<town townID="440203" town="武江区" />
+			<town townID="440204" town="浈江区" />
+			<town townID="440205" town="曲江区" />
+			<town townID="440222" town="始兴县" />
+			<town townID="440224" town="仁化县" />
+			<town townID="440229" town="翁源县" />
+			<town townID="440232" town="乳源瑶族自治县" />
+			<town townID="440233" town="新丰县" />
+			<town townID="440281" town="乐昌市" />
+			<town townID="440282" town="南雄市" />
+		</city>
+		<city cityID="440300" city="深圳">
+			<town townID="440301" town="市辖区" />
+			<town townID="440303" town="罗湖区" />
+			<town townID="440304" town="福田区" />
+			<town townID="440305" town="南山区" />
+			<town townID="440306" town="宝安区" />
+			<town townID="440307" town="龙岗区" />
+			<town townID="440308" town="盐田区" />
+		</city>
+		<city cityID="440400" city="珠海">
+			<town townID="440401" town="市辖区" />
+			<town townID="440402" town="香洲区" />
+			<town townID="440403" town="斗门区" />
+			<town townID="440404" town="金湾区" />
+		</city>
+		<city cityID="440500" city="汕头">
+			<town townID="440501" town="市辖区" />
+			<town townID="440507" town="龙湖区" />
+			<town townID="440511" town="金平区" />
+			<town townID="440512" town="濠江区" />
+			<town townID="440513" town="潮阳区" />
+			<town townID="440514" town="潮南区" />
+			<town townID="440515" town="澄海区" />
+			<town townID="440523" town="南澳县" />
+		</city>
+		<city cityID="440600" city="佛山">
+			<town townID="440601" town="市辖区" />
+			<town townID="440604" town="禅城区" />
+			<town townID="440605" town="南海区" />
+			<town townID="440606" town="顺德区" />
+			<town townID="440607" town="三水区" />
+			<town townID="440608" town="高明区" />
+		</city>
+		<city cityID="440700" city="江门">
+			<town townID="440701" town="市辖区" />
+			<town townID="440703" town="蓬江区" />
+			<town townID="440704" town="江海区" />
+			<town townID="440705" town="新会区" />
+			<town townID="440781" town="台山市" />
+			<town townID="440783" town="开平市" />
+			<town townID="440784" town="鹤山市" />
+			<town townID="440785" town="恩平市" />
+		</city>
+		<city cityID="440800" city="湛江">
+			<town townID="440801" town="市辖区" />
+			<town townID="440802" town="赤坎区" />
+			<town townID="440803" town="霞山区" />
+			<town townID="440804" town="坡头区" />
+			<town townID="440811" town="麻章区" />
+			<town townID="440823" town="遂溪县" />
+			<town townID="440825" town="徐闻县" />
+			<town townID="440881" town="廉江市" />
+			<town townID="440882" town="雷州市" />
+			<town townID="440883" town="吴川市" />
+		</city>
+		<city cityID="440900" city="茂名">
+			<town townID="440901" town="市辖区" />
+			<town townID="440902" town="茂南区" />
+			<town townID="440903" town="茂港区" />
+			<town townID="440923" town="电白县" />
+			<town townID="440981" town="高州市" />
+			<town townID="440982" town="化州市" />
+			<town townID="440983" town="信宜市" />
+		</city>
+		<city cityID="441200" city="肇庆">
+			<town townID="441201" town="市辖区" />
+			<town townID="441202" town="端州区" />
+			<town townID="441203" town="鼎湖区" />
+			<town townID="441223" town="广宁县" />
+			<town townID="441224" town="怀集县" />
+			<town townID="441225" town="封开县" />
+			<town townID="441226" town="德庆县" />
+			<town townID="441283" town="高要市" />
+			<town townID="441284" town="四会市" />
+		</city>
+		<city cityID="441300" city="惠州">
+			<town townID="441301" town="市辖区" />
+			<town townID="441302" town="惠城区" />
+			<town townID="441303" town="惠阳区" />
+			<town townID="441322" town="博罗县" />
+			<town townID="441323" town="惠东县" />
+			<town townID="441324" town="龙门县" />
+		</city>
+		<city cityID="441400" city="梅州">
+			<town townID="441401" town="市辖区" />
+			<town townID="441402" town="梅江区" />
+			<town townID="441421" town="梅　县" />
+			<town townID="441422" town="大埔县" />
+			<town townID="441423" town="丰顺县" />
+			<town townID="441424" town="五华县" />
+			<town townID="441426" town="平远县" />
+			<town townID="441427" town="蕉岭县" />
+			<town townID="441481" town="兴宁市" />
+		</city>
+		<city cityID="441500" city="汕尾">
+			<town townID="441501" town="市辖区" />
+			<town townID="441502" town="城　区" />
+			<town townID="441521" town="海丰县" />
+			<town townID="441523" town="陆河县" />
+			<town townID="441581" town="陆丰市" />
+		</city>
+		<city cityID="441600" city="河源">
+			<town townID="441601" town="市辖区" />
+			<town townID="441602" town="源城区" />
+			<town townID="441621" town="紫金县" />
+			<town townID="441622" town="龙川县" />
+			<town townID="441623" town="连平县" />
+			<town townID="441624" town="和平县" />
+			<town townID="441625" town="东源县" />
+		</city>
+		<city cityID="441700" city="阳江">
+			<town townID="441701" town="市辖区" />
+			<town townID="441702" town="江城区" />
+			<town townID="441721" town="阳西县" />
+			<town townID="441723" town="阳东县" />
+			<town townID="441781" town="阳春市" />
+		</city>
+		<city cityID="441800" city="清远">
+			<town townID="441801" town="市辖区" />
+			<town townID="441802" town="清城区" />
+			<town townID="441821" town="佛冈县" />
+			<town townID="441823" town="阳山县" />
+			<town townID="441825" town="连山壮族瑶族自治县" />
+			<town townID="441826" town="连南瑶族自治县" />
+			<town townID="441827" town="清新县" />
+			<town townID="441881" town="英德市" />
+			<town townID="441882" town="连州市" />
+		</city>
+		<city cityID="441900" city="东莞" />
+		<city cityID="442000" city="中山" />
+		<city cityID="445100" city="潮州">
+			<town townID="445101" town="市辖区" />
+			<town townID="445102" town="湘桥区" />
+			<town townID="445121" town="潮安县" />
+			<town townID="445122" town="饶平县" />
+		</city>
+		<city cityID="445200" city="揭阳">
+			<town townID="445201" town="市辖区" />
+			<town townID="445202" town="榕城区" />
+			<town townID="445221" town="揭东县" />
+			<town townID="445222" town="揭西县" />
+			<town townID="445224" town="惠来县" />
+			<town townID="445281" town="普宁市" />
+		</city>
+		<city cityID="445300" city="云浮">
+			<town townID="445301" town="市辖区" />
+			<town townID="445302" town="云城区" />
+			<town townID="445321" town="新兴县" />
+			<town townID="445322" town="郁南县" />
+			<town townID="445323" town="云安县" />
+			<town townID="445381" town="罗定市" />
+		</city>
+	</province>
+
+
+	<province ID="5" provinceID="120000" province="天津">
+		<city cityID="120101" city="和平区" />
+		<city cityID="120102" city="河东区" />
+		<city cityID="120103" city="河西区" />
+		<city cityID="120104" city="南开区" />
+		<city cityID="120105" city="河北区" />
+		<city cityID="120106" city="红桥区" />
+		<city cityID="120107" city="塘沽区" />
+		<city cityID="120108" city="汉沽区" />
+		<city cityID="120109" city="大港区" />
+		<city cityID="120110" city="东丽区" />
+		<city cityID="120111" city="西青区" />
+		<city cityID="120112" city="津南区" />
+		<city cityID="120113" city="北辰区" />
+		<city cityID="120114" city="武清区" />
+		<city cityID="120115" city="宝坻区" />
+		<city cityID="120221" city="宁河县" />
+		<city cityID="120223" city="静海县" />
+		<city cityID="120225" city="蓟县" />
+	</province>
+
+	<province ID="6" provinceID="500000" province="重庆">
+		<city cityID="500103" city="渝中区" />
+		<city cityID="500112" city="渝北区" />
+		<city cityID="500105" city="江北区" />
+		<city cityID="500108" city="南岸区" />
+		<city cityID="500109" city="北碚区" />
+		<city cityID="500106" city="沙坪坝区" />
+		<city cityID="500107" city="九龙坡区" />
+		<city cityID="500104" city="大渡口区" />
+		<city cityID="500101" city="万州区" />
+		<city cityID="500102" city="涪陵区" />
+		<city cityID="500381" city="江津区" />
+		<city cityID="500382" city="合川区" />
+		<city cityID="500383" city="永川区" />
+		<city cityID="500384" city="南川区" />
+		<city cityID="500110" city="万盛区" />
+		<city cityID="500111" city="双桥区" />
+		<city cityID="500113" city="巴南区" />
+		<city cityID="500114" city="黔江区" />
+		<city cityID="500115" city="长寿区" />
+		<city cityID="500222" city="綦江县" />
+		<city cityID="500223" city="潼南县" />
+		<city cityID="500224" city="铜梁县" />
+		<city cityID="500225" city="大足县" />
+		<city cityID="500226" city="荣昌县" />
+		<city cityID="500227" city="璧山县" />
+		<city cityID="500228" city="梁平县" />
+		<city cityID="500229" city="城口县" />
+		<city cityID="500230" city="丰都县" />
+		<city cityID="500231" city="垫江县" />
+		<city cityID="500232" city="武隆县" />
+		<city cityID="500235" city="云阳县" />
+		<city cityID="500236" city="奉节县" />
+		<city cityID="500237" city="巫山县" />
+		<city cityID="500238" city="巫溪县" />
+		<city cityID="500240" city="石柱土家族自治县" />
+		<city cityID="500233" city="忠县" />
+		<city cityID="500234" city="开县" />
+		<city cityID="500241" city="秀山土家族苗族自治县" />
+		<city cityID="500242" city="酉阳土家族苗族自治县" />
+		<city cityID="500243" city="彭水苗族土家族自治县" />
+	</province>
+
+	<province ID="7" provinceID="210000" province="辽宁">
+		<city cityID="210100" city="沈阳">
+			<town townID="210101" town="市辖区" />
+			<town townID="210102" town="和平区" />
+			<town townID="210103" town="沈河区" />
+			<town townID="210104" town="大东区" />
+			<town townID="210105" town="皇姑区" />
+			<town townID="210106" town="铁西区" />
+			<town townID="210111" town="苏家屯区" />
+			<town townID="210112" town="东陵区" />
+			<town townID="210113" town="新城子区" />
+			<town townID="210114" town="于洪区" />
+			<town townID="210122" town="辽中县" />
+			<town townID="210123" town="康平县" />
+			<town townID="210124" town="法库县" />
+			<town townID="210181" town="新民市" />
+		</city>
+		<city cityID="210200" city="大连">
+			<town townID="210201" town="市辖区" />
+			<town townID="210202" town="中山区" />
+			<town townID="210203" town="西岗区" />
+			<town townID="210204" town="沙河口区" />
+			<town townID="210211" town="甘井子区" />
+			<town townID="210212" town="旅顺口区" />
+			<town townID="210213" town="金州区" />
+			<town townID="210224" town="长海县" />
+			<town townID="210281" town="瓦房店市" />
+			<town townID="210282" town="普兰店市" />
+			<town townID="210283" town="庄河市" />
+		</city>
+		<city cityID="210300" city="鞍山">
+			<town townID="210301" town="市辖区" />
+			<town townID="210302" town="铁东区" />
+			<town townID="210303" town="铁西区" />
+			<town townID="210304" town="立山区" />
+			<town townID="210311" town="千山区" />
+			<town townID="210321" town="台安县" />
+			<town townID="210323" town="岫岩满族自治县" />
+			<town townID="210381" town="海城市" />
+		</city>
+		<city cityID="210400" city="抚顺">
+			<town townID="210401" town="市辖区" />
+			<town townID="210402" town="新抚区" />
+			<town townID="210403" town="东洲区" />
+			<town townID="210404" town="望花区" />
+			<town townID="210411" town="顺城区" />
+			<town townID="210421" town="抚顺县" />
+			<town townID="210422" town="新宾满族自治县" />
+			<town townID="210423" town="清原满族自治县" />
+		</city>
+		<city cityID="210500" city="本溪">
+			<town townID="210501" town="市辖区" />
+			<town townID="210502" town="平山区" />
+			<town townID="210503" town="溪湖区" />
+			<town townID="210504" town="明山区" />
+			<town townID="210505" town="南芬区" />
+			<town townID="210521" town="本溪满族自治县" />
+			<town townID="210522" town="桓仁满族自治县" />
+		</city>
+		<city cityID="210600" city="丹东">
+			<town townID="210601" town="市辖区" />
+			<town townID="210602" town="元宝区" />
+			<town townID="210603" town="振兴区" />
+			<town townID="210604" town="振安区" />
+			<town townID="210624" town="宽甸满族自治县" />
+			<town townID="210681" town="东港市" />
+			<town townID="210682" town="凤城市" />
+		</city>
+		<city cityID="210700" city="锦州">
+			<town townID="210701" town="市辖区" />
+			<town townID="210702" town="古塔区" />
+			<town townID="210703" town="凌河区" />
+			<town townID="210711" town="太和区" />
+			<town townID="210726" town="黑山县" />
+			<town townID="210727" town="义　县" />
+			<town townID="210781" town="凌海市" />
+			<town townID="210782" town="北宁市" />
+		</city>
+		<city cityID="210800" city="营口">
+			<town townID="210801" town="市辖区" />
+			<town townID="210802" town="站前区" />
+			<town townID="210803" town="西市区" />
+			<town townID="210804" town="鲅鱼圈区" />
+			<town townID="210811" town="老边区" />
+			<town townID="210881" town="盖州市" />
+			<town townID="210882" town="大石桥市" />
+		</city>
+		<city cityID="210900" city="阜新">
+			<town townID="210901" town="市辖区" />
+			<town townID="210902" town="海州区" />
+			<town townID="210903" town="新邱区" />
+			<town townID="210904" town="太平区" />
+			<town townID="210905" town="清河门区" />
+			<town townID="210911" town="细河区" />
+			<town townID="210921" town="阜新蒙古族自治县" />
+			<town townID="210922" town="彰武县" />
+		</city>
+		<city cityID="211000" city="辽阳">
+			<town townID="211001" town="市辖区" />
+			<town townID="211002" town="白塔区" />
+			<town townID="211003" town="文圣区" />
+			<town townID="211004" town="宏伟区" />
+			<town townID="211005" town="弓长岭区" />
+			<town townID="211011" town="太子河区" />
+			<town townID="211021" town="辽阳县" />
+			<town townID="211081" town="灯塔市" />
+		</city>
+		<city cityID="211100" city="盘锦">
+			<town townID="211101" town="市辖区" />
+			<town townID="211102" town="双台子区" />
+			<town townID="211103" town="兴隆台区" />
+			<town townID="211121" town="大洼县" />
+			<town townID="211122" town="盘山县" />
+		</city>
+		<city cityID="211200" city="铁岭">
+			<town townID="211201" town="市辖区" />
+			<town townID="211202" town="银州区" />
+			<town townID="211204" town="清河区" />
+			<town townID="211221" town="铁岭县" />
+			<town townID="211223" town="西丰县" />
+			<town townID="211224" town="昌图县" />
+			<town townID="211281" town="调兵山市" />
+			<town townID="211282" town="开原市" />
+		</city>
+		<city cityID="211300" city="朝阳">
+			<town townID="211301" town="市辖区" />
+			<town townID="211302" town="双塔区" />
+			<town townID="211303" town="龙城区" />
+			<town townID="211321" town="朝阳县" />
+			<town townID="211322" town="建平县" />
+			<town townID="211324" town="喀喇沁左翼蒙古族自治县" />
+			<town townID="211381" town="北票市" />
+			<town townID="211382" town="凌源市" />
+		</city>
+		<city cityID="211400" city="葫芦岛">
+			<town townID="211401" town="市辖区" />
+			<town townID="211402" town="连山区" />
+			<town townID="211403" town="龙港区" />
+			<town townID="211404" town="南票区" />
+			<town townID="211421" town="绥中县" />
+			<town townID="211422" town="建昌县" />
+			<town townID="211481" town="兴城市" />
+		</city>
+	</province>
+
+	<province ID="8" provinceID="320000" province="江苏">
+		<city cityID="320100" city="南京">
+			<town townID="320101" town="市辖区" />
+			<town townID="320102" town="玄武区" />
+			<town townID="320103" town="白下区" />
+			<town townID="320104" town="秦淮区" />
+			<town townID="320105" town="建邺区" />
+			<town townID="320106" town="鼓楼区" />
+			<town townID="320107" town="下关区" />
+			<town townID="320111" town="浦口区" />
+			<town townID="320113" town="栖霞区" />
+			<town townID="320114" town="雨花台区" />
+			<town townID="320115" town="江宁区" />
+			<town townID="320116" town="六合区" />
+			<town townID="320124" town="溧水县" />
+			<town townID="320125" town="高淳县" />
+		</city>
+		<city cityID="320200" city="无锡">
+			<town townID="320201" town="市辖区" />
+			<town townID="320202" town="崇安区" />
+			<town townID="320203" town="南长区" />
+			<town townID="320204" town="北塘区" />
+			<town townID="320205" town="锡山区" />
+			<town townID="320206" town="惠山区" />
+			<town townID="320211" town="滨湖区" />
+			<town townID="320281" town="江阴市" />
+			<town townID="320282" town="宜兴市" />
+		</city>
+		<city cityID="320300" city="徐州">
+			<town townID="320301" town="市辖区" />
+			<town townID="320302" town="鼓楼区" />
+			<town townID="320303" town="云龙区" />
+			<town townID="320304" town="九里区" />
+			<town townID="320305" town="贾汪区" />
+			<town townID="320311" town="泉山区" />
+			<town townID="320321" town="丰　县" />
+			<town townID="320322" town="沛　县" />
+			<town townID="320323" town="铜山县" />
+			<town townID="320324" town="睢宁县" />
+			<town townID="320381" town="新沂市" />
+			<town townID="320382" town="邳州市" />
+		</city>
+		<city cityID="320400" city="常州">
+			<town townID="320401" town="市辖区" />
+			<town townID="320402" town="天宁区" />
+			<town townID="320404" town="钟楼区" />
+			<town townID="320405" town="戚墅堰区" />
+			<town townID="320411" town="新北区" />
+			<town townID="320412" town="武进区" />
+			<town townID="320481" town="溧阳市" />
+			<town townID="320482" town="金坛市" />
+		</city>
+		<city cityID="320500" city="苏州">
+			<town townID="320501" town="市辖区" />
+			<town townID="320502" town="沧浪区" />
+			<town townID="320503" town="平江区" />
+			<town townID="320504" town="金阊区" />
+			<town townID="320505" town="虎丘区" />
+			<town townID="320506" town="吴中区" />
+			<town townID="320507" town="相城区" />
+			<town townID="320581" town="常熟市" />
+			<town townID="320582" town="张家港市" />
+			<town townID="320583" town="昆山市" />
+			<town townID="320584" town="吴江市" />
+			<town townID="320585" town="太仓市" />
+		</city>
+		<city cityID="320600" city="南通">
+			<town townID="320601" town="市辖区" />
+			<town townID="320602" town="崇川区" />
+			<town townID="320611" town="港闸区" />
+			<town townID="320621" town="海安县" />
+			<town townID="320623" town="如东县" />
+			<town townID="320681" town="启东市" />
+			<town townID="320682" town="如皋市" />
+			<town townID="320683" town="通州市" />
+			<town townID="320684" town="海门市" />
+		</city>
+		<city cityID="320700" city="连云港">
+			<town townID="320701" town="市辖区" />
+			<town townID="320703" town="连云区" />
+			<town townID="320705" town="新浦区" />
+			<town townID="320706" town="海州区" />
+			<town townID="320721" town="赣榆县" />
+			<town townID="320722" town="东海县" />
+			<town townID="320723" town="灌云县" />
+			<town townID="320724" town="灌南县" />
+		</city>
+		<city cityID="320800" city="淮安">
+			<town townID="320801" town="市辖区" />
+			<town townID="320802" town="清河区" />
+			<town townID="320803" town="楚州区" />
+			<town townID="320804" town="淮阴区" />
+			<town townID="320811" town="清浦区" />
+			<town townID="320826" town="涟水县" />
+			<town townID="320829" town="洪泽县" />
+			<town townID="320830" town="盱眙县" />
+			<town townID="320831" town="金湖县" />
+		</city>
+		<city cityID="320900" city="盐城">
+			<town townID="320901" town="市辖区" />
+			<town townID="320902" town="亭湖区" />
+			<town townID="320903" town="盐都区" />
+			<town townID="320921" town="响水县" />
+			<town townID="320922" town="滨海县" />
+			<town townID="320923" town="阜宁县" />
+			<town townID="320924" town="射阳县" />
+			<town townID="320925" town="建湖县" />
+			<town townID="320981" town="东台市" />
+			<town townID="320982" town="大丰市" />
+		</city>
+		<city cityID="321000" city="扬州">
+			<town townID="321001" town="市辖区" />
+			<town townID="321002" town="广陵区" />
+			<town townID="321003" town="邗江区" />
+			<town townID="321011" town="郊　区" />
+			<town townID="321023" town="宝应县" />
+			<town townID="321081" town="仪征市" />
+			<town townID="321084" town="高邮市" />
+			<town townID="321088" town="江都市" />
+		</city>
+		<city cityID="321100" city="镇江">
+			<town townID="321101" town="市辖区" />
+			<town townID="321102" town="京口区" />
+			<town townID="321111" town="润州区" />
+			<town townID="321112" town="丹徒区" />
+			<town townID="321181" town="丹阳市" />
+			<town townID="321182" town="扬中市" />
+			<town townID="321183" town="句容市" />
+		</city>
+		<city cityID="321200" city="泰州">
+			<town townID="321201" town="市辖区" />
+			<town townID="321202" town="海陵区" />
+			<town townID="321203" town="高港区" />
+			<town townID="321281" town="兴化市" />
+			<town townID="321282" town="靖江市" />
+			<town townID="321283" town="泰兴市" />
+			<town townID="321284" town="姜堰市" />
+		</city>
+		<city cityID="321300" city="宿迁">
+			<town townID="321301" town="市辖区" />
+			<town townID="321302" town="宿城区" />
+			<town townID="321311" town="宿豫区" />
+			<town townID="321322" town="沭阳县" />
+			<town townID="321323" town="泗阳县" />
+			<town townID="321324" town="泗洪县" />
+		</city>
+	</province>
+
+	<province ID="9" provinceID="420000" province="湖北">
+		<city cityID="420100" city="武汉">
+			<town townID="420101" town="市辖区" />
+			<town townID="420102" town="江岸区" />
+			<town townID="420103" town="江汉区" />
+			<town townID="420104" town="乔口区" />
+			<town townID="420105" town="汉阳区" />
+			<town townID="420106" town="武昌区" />
+			<town townID="420107" town="青山区" />
+			<town townID="420111" town="洪山区" />
+			<town townID="420112" town="东西湖区" />
+			<town townID="420113" town="汉南区" />
+			<town townID="420114" town="蔡甸区" />
+			<town townID="420115" town="江夏区" />
+			<town townID="420116" town="黄陂区" />
+			<town townID="420117" town="新洲区" />
+		</city>
+		<city cityID="420200" city="黄石">
+			<town townID="420201" town="市辖区" />
+			<town townID="420202" town="黄石港区" />
+			<town townID="420203" town="西塞山区" />
+			<town townID="420204" town="下陆区" />
+			<town townID="420205" town="铁山区" />
+			<town townID="420222" town="阳新县" />
+			<town townID="420281" town="大冶市" />
+		</city>
+		<city cityID="420300" city="十堰">
+			<town townID="420301" town="市辖区" />
+			<town townID="420302" town="茅箭区" />
+			<town townID="420303" town="张湾区" />
+			<town townID="420321" town="郧　县" />
+			<town townID="420322" town="郧西县" />
+			<town townID="420323" town="竹山县" />
+			<town townID="420324" town="竹溪县" />
+			<town townID="420325" town="房　县" />
+			<town townID="420381" town="丹江口市" />
+		</city>
+		<city cityID="420500" city="宜昌">
+			<town townID="420501" town="市辖区" />
+			<town townID="420502" town="西陵区" />
+			<town townID="420503" town="伍家岗区" />
+			<town townID="420504" town="点军区" />
+			<town townID="420505" town="猇亭区" />
+			<town townID="420506" town="夷陵区" />
+			<town townID="420525" town="远安县" />
+			<town townID="420526" town="兴山县" />
+			<town townID="420527" town="秭归县" />
+			<town townID="420528" town="长阳土家族自治县" />
+			<town townID="420529" town="五峰土家族自治县" />
+			<town townID="420581" town="宜都市" />
+			<town townID="420582" town="当阳市" />
+			<town townID="420583" town="枝江市" />
+		</city>
+		<city cityID="420600" city="襄樊">
+			<town townID="420601" town="市辖区" />
+			<town townID="420602" town="襄城区" />
+			<town townID="420606" town="樊城区" />
+			<town townID="420607" town="襄阳区" />
+			<town townID="420624" town="南漳县" />
+			<town townID="420625" town="谷城县" />
+			<town townID="420626" town="保康县" />
+			<town townID="420682" town="老河口市" />
+			<town townID="420683" town="枣阳市" />
+			<town townID="420684" town="宜城市" />
+		</city>
+		<city cityID="420700" city="鄂州">
+			<town townID="420701" town="市辖区" />
+			<town townID="420702" town="梁子湖区" />
+			<town townID="420703" town="华容区" />
+			<town townID="420704" town="鄂城区" />
+		</city>
+		<city cityID="420800" city="荆门">
+			<town townID="420801" town="市辖区" />
+			<town townID="420802" town="东宝区" />
+			<town townID="420804" town="掇刀区" />
+			<town townID="420821" town="京山县" />
+			<town townID="420822" town="沙洋县" />
+			<town townID="420881" town="钟祥市" />
+		</city>
+		<city cityID="420900" city="孝感">
+			<town townID="420901" town="市辖区" />
+			<town townID="420902" town="孝南区" />
+			<town townID="420921" town="孝昌县" />
+			<town townID="420922" town="大悟县" />
+			<town townID="420923" town="云梦县" />
+			<town townID="420981" town="应城市" />
+			<town townID="420982" town="安陆市" />
+			<town townID="420984" town="汉川市" />
+		</city>
+		<city cityID="421000" city="荆州">
+			<town townID="421001" town="市辖区" />
+			<town townID="421002" town="沙市区" />
+			<town townID="421003" town="荆州区" />
+			<town townID="421022" town="公安县" />
+			<town townID="421023" town="监利县" />
+			<town townID="421024" town="江陵县" />
+			<town townID="421081" town="石首市" />
+			<town townID="421083" town="洪湖市" />
+			<town townID="421087" town="松滋市" />
+		</city>
+		<city cityID="421100" city="黄冈">
+			<town townID="421101" town="市辖区" />
+			<town townID="421102" town="黄州区" />
+			<town townID="421121" town="团风县" />
+			<town townID="421122" town="红安县" />
+			<town townID="421123" town="罗田县" />
+			<town townID="421124" town="英山县" />
+			<town townID="421125" town="浠水县" />
+			<town townID="421126" town="蕲春县" />
+			<town townID="421127" town="黄梅县" />
+			<town townID="421181" town="麻城市" />
+			<town townID="421182" town="武穴市" />
+		</city>
+		<city cityID="421200" city="咸宁">
+			<town townID="421201" town="市辖区" />
+			<town townID="421202" town="咸安区" />
+			<town townID="421221" town="嘉鱼县" />
+			<town townID="421222" town="通城县" />
+			<town townID="421223" town="崇阳县" />
+			<town townID="421224" town="通山县" />
+			<town townID="421281" town="赤壁市" />
+		</city>
+		<city cityID="421300" city="随州">
+			<town townID="421301" town="市辖区" />
+			<town townID="421302" town="曾都区" />
+			<town townID="421381" town="广水市" />
+		</city>
+		<city cityID="429004" city="仙桃" />
+		<city cityID="429005" city="潜江" />
+		<city cityID="429006" city="天门" />
+		<city cityID="429021" city="神农架林区" />
+		<city cityID="422800" city="恩施土家族苗族自治州">
+			<town townID="422801" town="恩施市" />
+			<town townID="422802" town="利川市" />
+			<town townID="422822" town="建始县" />
+			<town townID="422823" town="巴东县" />
+			<town townID="422825" town="宣恩县" />
+			<town townID="422826" town="咸丰县" />
+			<town townID="422827" town="来凤县" />
+			<town townID="422828" town="鹤峰县" />
+		</city>
+	</province>
+
+	<province ID="10" provinceID="510000" province="四川">
+		<city cityID="510100" city="成都">
+			<town townID="510101" town="市辖区" />
+			<town townID="510104" town="锦江区" />
+			<town townID="510105" town="青羊区" />
+			<town townID="510106" town="金牛区" />
+			<town townID="510107" town="武侯区" />
+			<town townID="510108" town="成华区" />
+			<town townID="510112" town="龙泉驿区" />
+			<town townID="510113" town="青白江区" />
+			<town townID="510114" town="新都区" />
+			<town townID="510115" town="温江区" />
+			<town townID="510121" town="金堂县" />
+			<town townID="510122" town="双流县" />
+			<town townID="510124" town="郫　县" />
+			<town townID="510129" town="大邑县" />
+			<town townID="510131" town="蒲江县" />
+			<town townID="510132" town="新津县" />
+			<town townID="510181" town="都江堰市" />
+			<town townID="510182" town="彭州市" />
+			<town townID="510183" town="邛崃市" />
+			<town townID="510184" town="崇州市" />
+		</city>
+		<city cityID="510300" city="自贡">
+			<town townID="510301" town="市辖区" />
+			<town townID="510302" town="自流井区" />
+			<town townID="510303" town="贡井区" />
+			<town townID="510304" town="大安区" />
+			<town townID="510311" town="沿滩区" />
+			<town townID="510321" town="荣　县" />
+			<town townID="510322" town="富顺县" />
+		</city>
+		<city cityID="510500" city="泸州">
+			<town townID="510501" town="市辖区" />
+			<town townID="510502" town="江阳区" />
+			<town townID="510503" town="纳溪区" />
+			<town townID="510504" town="龙马潭区" />
+			<town townID="510521" town="泸　县" />
+			<town townID="510522" town="合江县" />
+			<town townID="510524" town="叙永县" />
+			<town townID="510525" town="古蔺县" />
+		</city>
+		<city cityID="510600" city="德阳">
+			<town townID="510601" town="市辖区" />
+			<town townID="510603" town="旌阳区" />
+			<town townID="510623" town="中江县" />
+			<town townID="510626" town="罗江县" />
+			<town townID="510681" town="广汉市" />
+			<town townID="510682" town="什邡市" />
+			<town townID="510683" town="绵竹市" />
+		</city>
+		<city cityID="510700" city="绵阳">
+			<town townID="510701" town="市辖区" />
+			<town townID="510703" town="涪城区" />
+			<town townID="510704" town="游仙区" />
+			<town townID="510722" town="三台县" />
+			<town townID="510723" town="盐亭县" />
+			<town townID="510724" town="安　县" />
+			<town townID="510725" town="梓潼县" />
+			<town townID="510726" town="北川羌族自治县" />
+			<town townID="510727" town="平武县" />
+			<town townID="510781" town="江油市" />
+		</city>
+		<city cityID="510800" city="广元">
+			<town townID="510801" town="市辖区" />
+			<town townID="510802" town="市中区" />
+			<town townID="510811" town="元坝区" />
+			<town townID="510812" town="朝天区" />
+			<town townID="510821" town="旺苍县" />
+			<town townID="510822" town="青川县" />
+			<town townID="510823" town="剑阁县" />
+			<town townID="510824" town="苍溪县" />
+		</city>
+		<city cityID="510900" city="遂宁">
+			<town townID="510901" town="市辖区" />
+			<town townID="510903" town="船山区" />
+			<town townID="510904" town="安居区" />
+			<town townID="510921" town="蓬溪县" />
+			<town townID="510922" town="射洪县" />
+			<town townID="510923" town="大英县" />
+		</city>
+		<city cityID="511000" city="内江">
+			<town townID="511001" town="市辖区" />
+			<town townID="511002" town="市中区" />
+			<town townID="511011" town="东兴区" />
+			<town townID="511024" town="威远县" />
+			<town townID="511025" town="资中县" />
+			<town townID="511028" town="隆昌县" />
+		</city>
+		<city cityID="511100" city="乐山">
+			<town townID="511101" town="市辖区" />
+			<town townID="511102" town="市中区" />
+			<town townID="511111" town="沙湾区" />
+			<town townID="511112" town="五通桥区" />
+			<town townID="511113" town="金口河区" />
+			<town townID="511123" town="犍为县" />
+			<town townID="511124" town="井研县" />
+			<town townID="511126" town="夹江县" />
+			<town townID="511129" town="沐川县" />
+			<town townID="511132" town="峨边彝族自治县" />
+			<town townID="511133" town="马边彝族自治县" />
+			<town townID="511181" town="峨眉山市" />
+		</city>
+		<city cityID="511300" city="南充">
+			<town townID="511301" town="市辖区" />
+			<town townID="511302" town="顺庆区" />
+			<town townID="511303" town="高坪区" />
+			<town townID="511304" town="嘉陵区" />
+			<town townID="511321" town="南部县" />
+			<town townID="511322" town="营山县" />
+			<town townID="511323" town="蓬安县" />
+			<town townID="511324" town="仪陇县" />
+			<town townID="511325" town="西充县" />
+			<town townID="511381" town="阆中市" />
+		</city>
+		<city cityID="511400" city="眉山">
+			<town townID="511401" town="市辖区" />
+			<town townID="511402" town="东坡区" />
+			<town townID="511421" town="仁寿县" />
+			<town townID="511422" town="彭山县" />
+			<town townID="511423" town="洪雅县" />
+			<town townID="511424" town="丹棱县" />
+			<town townID="511425" town="青神县" />
+		</city>
+		<city cityID="511500" city="宜宾">
+			<town townID="511501" town="市辖区" />
+			<town townID="511502" town="翠屏区" />
+			<town townID="511521" town="宜宾县" />
+			<town townID="511522" town="南溪县" />
+			<town townID="511523" town="江安县" />
+			<town townID="511524" town="长宁县" />
+			<town townID="511525" town="高　县" />
+			<town townID="511526" town="珙　县" />
+			<town townID="511527" town="筠连县" />
+			<town townID="511528" town="兴文县" />
+			<town townID="511529" town="屏山县" />
+		</city>
+		<city cityID="511600" city="广安">
+			<town townID="511601" town="市辖区" />
+			<town townID="511602" town="广安区" />
+			<town townID="511621" town="岳池县" />
+			<town townID="511622" town="武胜县" />
+			<town townID="511623" town="邻水县" />
+			<town townID="511681" town="华莹市" />
+		</city>
+		<city cityID="511700" city="达州">
+			<town townID="511701" town="市辖区" />
+			<town townID="511702" town="通川区" />
+			<town townID="511721" town="达　县" />
+			<town townID="511722" town="宣汉县" />
+			<town townID="511723" town="开江县" />
+			<town townID="511724" town="大竹县" />
+			<town townID="511725" town="渠　县" />
+			<town townID="511781" town="万源市" />
+		</city>
+		<city cityID="511800" city="雅安">
+			<town townID="511801" town="市辖区" />
+			<town townID="511802" town="雨城区" />
+			<town townID="511821" town="名山县" />
+			<town townID="511822" town="荥经县" />
+			<town townID="511823" town="汉源县" />
+			<town townID="511824" town="石棉县" />
+			<town townID="511825" town="天全县" />
+			<town townID="511826" town="芦山县" />
+			<town townID="511827" town="宝兴县" />
+		</city>
+		<city cityID="510400" city="攀枝花">
+			<town townID="510401" town="市辖区" />
+			<town townID="510402" town="东　区" />
+			<town townID="510403" town="西　区" />
+			<town townID="510411" town="仁和区" />
+			<town townID="510421" town="米易县" />
+			<town townID="510422" town="盐边县" />
+		</city>
+		<city cityID="511900" city="巴中">
+			<town townID="511901" town="市辖区" />
+			<town townID="511902" town="巴州区" />
+			<town townID="511921" town="通江县" />
+			<town townID="511922" town="南江县" />
+			<town townID="511923" town="平昌县" />
+		</city>
+		<city cityID="512000" city="资阳">
+			<town townID="512001" town="市辖区" />
+			<town townID="512002" town="雁江区" />
+			<town townID="512021" town="安岳县" />
+			<town townID="512022" town="乐至县" />
+			<town townID="512081" town="简阳市" />
+		</city>
+		<city cityID="513300" city="甘孜藏族自治州">
+			<town townID="513321" town="康定县" />
+			<town townID="513322" town="泸定县" />
+			<town townID="513323" town="丹巴县" />
+			<town townID="513324" town="九龙县" />
+			<town townID="513325" town="雅江县" />
+			<town townID="513326" town="道孚县" />
+			<town townID="513327" town="炉霍县" />
+			<town townID="513328" town="甘孜县" />
+			<town townID="513329" town="新龙县" />
+			<town townID="513330" town="德格县" />
+			<town townID="513331" town="白玉县" />
+			<town townID="513332" town="石渠县" />
+			<town townID="513333" town="色达县" />
+			<town townID="513334" town="理塘县" />
+			<town townID="513335" town="巴塘县" />
+			<town townID="513336" town="乡城县" />
+			<town townID="513337" town="稻城县" />
+			<town townID="513338" town="得荣县" />
+		</city>
+		<city cityID="513400" city="凉山彝族自治州">
+			<town townID="513401" town="西昌市" />
+			<town townID="513422" town="木里藏族自治县" />
+			<town townID="513423" town="盐源县" />
+			<town townID="513424" town="德昌县" />
+			<town townID="513425" town="会理县" />
+			<town townID="513426" town="会东县" />
+			<town townID="513427" town="宁南县" />
+			<town townID="513428" town="普格县" />
+			<town townID="513429" town="布拖县" />
+			<town townID="513430" town="金阳县" />
+			<town townID="513431" town="昭觉县" />
+			<town townID="513432" town="喜德县" />
+			<town townID="513433" town="冕宁县" />
+			<town townID="513434" town="越西县" />
+			<town townID="513435" town="甘洛县" />
+			<town townID="513436" town="美姑县" />
+			<town townID="513437" town="雷波县" />
+		</city>
+		<city cityID="513200" city="阿坝藏族羌族自治州">
+			<town townID="513221" town="汶川县" />
+			<town townID="513222" town="理　县" />
+			<town townID="513223" town="茂　县" />
+			<town townID="513224" town="松潘县" />
+			<town townID="513225" town="九寨沟县" />
+			<town townID="513226" town="金川县" />
+			<town townID="513227" town="小金县" />
+			<town townID="513228" town="黑水县" />
+			<town townID="513229" town="马尔康县" />
+			<town townID="513230" town="壤塘县" />
+			<town townID="513231" town="阿坝县" />
+			<town townID="513232" town="若尔盖县" />
+			<town townID="513233" town="红原县" />
+		</city>
+	</province>
+
+	<province ID="11" provinceID="610000" province="陕西">
+		<city cityID="610100" city="西安">
+			<town townID="610101" town="市辖区" />
+			<town townID="610102" town="新城区" />
+			<town townID="610103" town="碑林区" />
+			<town townID="610104" town="莲湖区" />
+			<town townID="610111" town="灞桥区" />
+			<town townID="610112" town="未央区" />
+			<town townID="610113" town="雁塔区" />
+			<town townID="610114" town="阎良区" />
+			<town townID="610115" town="临潼区" />
+			<town townID="610116" town="长安区" />
+			<town townID="610122" town="蓝田县" />
+			<town townID="610124" town="周至县" />
+			<town townID="610125" town="户　县" />
+			<town townID="610126" town="高陵县" />
+		</city>
+		<city cityID="610200" city="铜川">
+			<town townID="610201" town="市辖区" />
+			<town townID="610202" town="王益区" />
+			<town townID="610203" town="印台区" />
+			<town townID="610204" town="耀州区" />
+			<town townID="610222" town="宜君县" />
+		</city>
+		<city cityID="610300" city="宝鸡">
+			<town townID="610301" town="市辖区" />
+			<town townID="610302" town="渭滨区" />
+			<town townID="610303" town="金台区" />
+			<town townID="610304" town="陈仓区" />
+			<town townID="610322" town="凤翔县" />
+			<town townID="610323" town="岐山县" />
+			<town townID="610324" town="扶风县" />
+			<town townID="610326" town="眉　县" />
+			<town townID="610327" town="陇　县" />
+			<town townID="610328" town="千阳县" />
+			<town townID="610329" town="麟游县" />
+			<town townID="610330" town="凤　县" />
+			<town townID="610331" town="太白县" />
+		</city>
+		<city cityID="610400" city="咸阳">
+			<town townID="610401" town="市辖区" />
+			<town townID="610402" town="秦都区" />
+			<town townID="610403" town="杨凌区" />
+			<town townID="610404" town="渭城区" />
+			<town townID="610422" town="三原县" />
+			<town townID="610423" town="泾阳县" />
+			<town townID="610424" town="乾　县" />
+			<town townID="610425" town="礼泉县" />
+			<town townID="610426" town="永寿县" />
+			<town townID="610427" town="彬　县" />
+			<town townID="610428" town="长武县" />
+			<town townID="610429" town="旬邑县" />
+			<town townID="610430" town="淳化县" />
+			<town townID="610431" town="武功县" />
+			<town townID="610481" town="兴平市" />
+		</city>
+		<city cityID="610500" city="渭南">
+			<town townID="610501" town="市辖区" />
+			<town townID="610502" town="临渭区" />
+			<town townID="610521" town="华　县" />
+			<town townID="610522" town="潼关县" />
+			<town townID="610523" town="大荔县" />
+			<town townID="610524" town="合阳县" />
+			<town townID="610525" town="澄城县" />
+			<town townID="610526" town="蒲城县" />
+			<town townID="610527" town="白水县" />
+			<town townID="610528" town="富平县" />
+			<town townID="610581" town="韩城市" />
+			<town townID="610582" town="华阴市" />
+		</city>
+		<city cityID="610600" city="延安">
+			<town townID="610601" town="市辖区" />
+			<town townID="610602" town="宝塔区" />
+			<town townID="610621" town="延长县" />
+			<town townID="610622" town="延川县" />
+			<town townID="610623" town="子长县" />
+			<town townID="610624" town="安塞县" />
+			<town townID="610625" town="志丹县" />
+			<town townID="610626" town="吴旗县" />
+			<town townID="610627" town="甘泉县" />
+			<town townID="610628" town="富　县" />
+			<town townID="610629" town="洛川县" />
+			<town townID="610630" town="宜川县" />
+			<town townID="610631" town="黄龙县" />
+			<town townID="610632" town="黄陵县" />
+		</city>
+		<city cityID="610700" city="汉中">
+			<town townID="610701" town="市辖区" />
+			<town townID="610702" town="汉台区" />
+			<town townID="610721" town="南郑县" />
+			<town townID="610722" town="城固县" />
+			<town townID="610723" town="洋　县" />
+			<town townID="610724" town="西乡县" />
+			<town townID="610725" town="勉　县" />
+			<town townID="610726" town="宁强县" />
+			<town townID="610727" town="略阳县" />
+			<town townID="610728" town="镇巴县" />
+			<town townID="610729" town="留坝县" />
+			<town townID="610730" town="佛坪县" />
+		</city>
+		<city cityID="610800" city="榆林">
+			<town townID="610801" town="市辖区" />
+			<town townID="610802" town="榆阳区" />
+			<town townID="610821" town="神木县" />
+			<town townID="610822" town="府谷县" />
+			<town townID="610823" town="横山县" />
+			<town townID="610824" town="靖边县" />
+			<town townID="610825" town="定边县" />
+			<town townID="610826" town="绥德县" />
+			<town townID="610827" town="米脂县" />
+			<town townID="610828" town="佳　县" />
+			<town townID="610829" town="吴堡县" />
+			<town townID="610830" town="清涧县" />
+			<town townID="610831" town="子洲县" />
+		</city>
+		<city cityID="610900" city="安康">
+			<town townID="610901" town="市辖区" />
+			<town townID="610902" town="汉滨区" />
+			<town townID="610921" town="汉阴县" />
+			<town townID="610922" town="石泉县" />
+			<town townID="610923" town="宁陕县" />
+			<town townID="610924" town="紫阳县" />
+			<town townID="610925" town="岚皋县" />
+			<town townID="610926" town="平利县" />
+			<town townID="610927" town="镇坪县" />
+			<town townID="610928" town="旬阳县" />
+			<town townID="610929" town="白河县" />
+		</city>
+		<city cityID="611000" city="商洛">
+			<town townID="611001" town="市辖区" />
+			<town townID="611002" town="商州区" />
+			<town townID="611021" town="洛南县" />
+			<town townID="611022" town="丹凤县" />
+			<town townID="611023" town="商南县" />
+			<town townID="611024" town="山阳县" />
+			<town townID="611025" town="镇安县" />
+			<town townID="611026" town="柞水县" />
+		</city>
+	</province>
+
+	<province ID="12" provinceID="130000" province="河北">
+		<city cityID="130100" city="石家庄">
+			<town townID="130101" town="市辖区" />
+			<town townID="130102" town="长安区" />
+			<town townID="130103" town="桥东区" />
+			<town townID="130104" town="桥西区" />
+			<town townID="130105" town="新华区" />
+			<town townID="130108" town="裕华区" />
+			<town townID="130121" town="井陉县" />
+			<town townID="130123" town="正定县" />
+			<town townID="130124" town="栾城县" />
+			<town townID="130125" town="行唐县" />
+			<town townID="130126" town="灵寿县" />
+			<town townID="130127" town="高邑县" />
+			<town townID="130128" town="深泽县" />
+			<town townID="130129" town="赞皇县" />
+			<town townID="130130" town="无极县" />
+			<town townID="130131" town="平山县" />
+			<town townID="130132" town="元氏县" />
+			<town townID="130181" town="辛集市" />
+			<town townID="130182" town="藁城市" />
+			<town townID="130183" town="晋州市" />
+			<town townID="130184" town="新乐市" />
+			<town townID="130185" town="鹿泉市" />
+			<town townID="130133" town="赵县" />
+			<town townID="130107" town="井陉矿区" />
+		</city>
+		<city cityID="130200" city="唐山">
+			<town townID="130201" town="市辖区" />
+			<town townID="130202" town="路南区" />
+			<town townID="130203" town="路北区" />
+			<town townID="130204" town="古冶区" />
+			<town townID="130205" town="开平区" />
+			<town townID="130207" town="丰南区" />
+			<town townID="130208" town="丰润区" />
+			<town townID="130223" town="滦县" />
+			<town townID="130224" town="滦南县" />
+			<town townID="130225" town="乐亭县" />
+			<town townID="130227" town="迁西县" />
+			<town townID="130229" town="玉田县" />
+			<town townID="130230" town="唐海县" />
+			<town townID="130281" town="遵化市" />
+			<town townID="130283" town="迁安市" />
+		</city>
+		<city cityID="130300" city="秦皇岛">
+			<town townID="130301" town="市辖区" />
+			<town townID="130302" town="海港区" />
+			<town townID="130303" town="山海关区" />
+			<town townID="130304" town="北戴河区" />
+			<town townID="130321" town="青龙满族自治县" />
+			<town townID="130322" town="昌黎县" />
+			<town townID="130323" town="抚宁县" />
+			<town townID="130324" town="卢龙县" />
+		</city>
+		<city cityID="130400" city="邯郸">
+			<town townID="130401" town="市辖区" />
+			<town townID="130402" town="邯山区" />
+			<town townID="130403" town="丛台区" />
+			<town townID="130404" town="复兴区" />
+			<town townID="130406" town="峰峰矿区" />
+			<town townID="130421" town="邯郸县" />
+			<town townID="130423" town="临漳县" />
+			<town townID="130424" town="成安县" />
+			<town townID="130425" town="大名县" />
+			<town townID="130426" town="涉　县" />
+			<town townID="130427" town="磁　县" />
+			<town townID="130428" town="肥乡县" />
+			<town townID="130429" town="永年县" />
+			<town townID="130430" town="邱　县" />
+			<town townID="130431" town="鸡泽县" />
+			<town townID="130432" town="广平县" />
+			<town townID="130433" town="馆陶县" />
+			<town townID="130434" town="魏　县" />
+			<town townID="130435" town="曲周县" />
+			<town townID="130481" town="武安市" />
+		</city>
+		<city cityID="130500" city="邢台">
+			<town townID="130501" town="市辖区" />
+			<town townID="130502" town="桥东区" />
+			<town townID="130503" town="桥西区" />
+			<town townID="130521" town="邢台县" />
+			<town townID="130522" town="临城县" />
+			<town townID="130523" town="内丘县" />
+			<town townID="130524" town="柏乡县" />
+			<town townID="130525" town="隆尧县" />
+			<town townID="130526" town="任　县" />
+			<town townID="130527" town="南和县" />
+			<town townID="130528" town="宁晋县" />
+			<town townID="130529" town="巨鹿县" />
+			<town townID="130530" town="新河县" />
+			<town townID="130531" town="广宗县" />
+			<town townID="130532" town="平乡县" />
+			<town townID="130533" town="威　县" />
+			<town townID="130534" town="清河县" />
+			<town townID="130535" town="临西县" />
+			<town townID="130581" town="南宫市" />
+			<town townID="130582" town="沙河市" />
+		</city>
+		<city cityID="130600" city="保定">
+			<town townID="130601" town="市辖区" />
+			<town townID="130602" town="新市区" />
+			<town townID="130603" town="北市区" />
+			<town townID="130604" town="南市区" />
+			<town townID="130621" town="满城县" />
+			<town townID="130622" town="清苑县" />
+			<town townID="130623" town="涞水县" />
+			<town townID="130624" town="阜平县" />
+			<town townID="130625" town="徐水县" />
+			<town townID="130626" town="定兴县" />
+			<town townID="130627" town="唐　县" />
+			<town townID="130628" town="高阳县" />
+			<town townID="130629" town="容城县" />
+			<town townID="130630" town="涞源县" />
+			<town townID="130631" town="望都县" />
+			<town townID="130632" town="安新县" />
+			<town townID="130633" town="易　县" />
+			<town townID="130634" town="曲阳县" />
+			<town townID="130635" town="蠡　县" />
+			<town townID="130636" town="顺平县" />
+			<town townID="130637" town="博野县" />
+			<town townID="130638" town="雄　县" />
+			<town townID="130681" town="涿州市" />
+			<town townID="130682" town="定州市" />
+			<town townID="130683" town="安国市" />
+			<town townID="130684" town="高碑店市" />
+		</city>
+		<city cityID="130700" city="张家口">
+			<town townID="130701" town="市辖区" />
+			<town townID="130702" town="桥东区" />
+			<town townID="130703" town="桥西区" />
+			<town townID="130705" town="宣化区" />
+			<town townID="130706" town="下花园区" />
+			<town townID="130721" town="宣化县" />
+			<town townID="130722" town="张北县" />
+			<town townID="130723" town="康保县" />
+			<town townID="130724" town="沽源县" />
+			<town townID="130725" town="尚义县" />
+			<town townID="130726" town="蔚　县" />
+			<town townID="130727" town="阳原县" />
+			<town townID="130728" town="怀安县" />
+			<town townID="130729" town="万全县" />
+			<town townID="130730" town="怀来县" />
+			<town townID="130731" town="涿鹿县" />
+			<town townID="130732" town="赤城县" />
+			<town townID="130733" town="崇礼县" />
+		</city>
+		<city cityID="130800" city="承德">
+			<town townID="130801" town="市辖区" />
+			<town townID="130802" town="双桥区" />
+			<town townID="130803" town="双滦区" />
+			<town townID="130804" town="鹰手营子矿区" />
+			<town townID="130821" town="承德县" />
+			<town townID="130822" town="兴隆县" />
+			<town townID="130823" town="平泉县" />
+			<town townID="130824" town="滦平县" />
+			<town townID="130825" town="隆化县" />
+			<town townID="130826" town="丰宁满族自治县" />
+			<town townID="130827" town="宽城满族自治县" />
+			<town townID="130828" town="围场满族蒙古族自治县" />
+		</city>
+		<city cityID="130900" city="沧州">
+			<town townID="130901" town="市辖区" />
+			<town townID="130902" town="新华区" />
+			<town townID="130903" town="运河区" />
+			<town townID="130921" town="沧　县" />
+			<town townID="130922" town="青　县" />
+			<town townID="130923" town="东光县" />
+			<town townID="130924" town="海兴县" />
+			<town townID="130925" town="盐山县" />
+			<town townID="130926" town="肃宁县" />
+			<town townID="130927" town="南皮县" />
+			<town townID="130928" town="吴桥县" />
+			<town townID="130929" town="献　县" />
+			<town townID="130930" town="孟村回族自治县" />
+			<town townID="130981" town="泊头市" />
+			<town townID="130982" town="任丘市" />
+			<town townID="130983" town="黄骅市" />
+			<town townID="130984" town="河间市" />
+		</city>
+		<city cityID="131000" city="廊坊">
+			<town townID="131001" town="市辖区" />
+			<town townID="131002" town="安次区" />
+			<town townID="131003" town="广阳区" />
+			<town townID="131022" town="固安县" />
+			<town townID="131023" town="永清县" />
+			<town townID="131024" town="香河县" />
+			<town townID="131025" town="大城县" />
+			<town townID="131026" town="文安县" />
+			<town townID="131028" town="大厂回族自治县" />
+			<town townID="131081" town="霸州市" />
+			<town townID="131082" town="三河市" />
+		</city>
+		<city cityID="131100" city="衡水">
+			<town townID="131101" town="市辖区" />
+			<town townID="131102" town="桃城区" />
+			<town townID="131121" town="枣强县" />
+			<town townID="131122" town="武邑县" />
+			<town townID="131123" town="武强县" />
+			<town townID="131124" town="饶阳县" />
+			<town townID="131125" town="安平县" />
+			<town townID="131126" town="故城县" />
+			<town townID="131127" town="景　县" />
+			<town townID="131128" town="阜城县" />
+			<town townID="131181" town="冀州市" />
+			<town townID="131182" town="深州市" />
+		</city>
+	</province>
+
+	<province ID="13" provinceID="140000" province="山西">
+		<city cityID="140100" city="太原">
+			<town townID="140101" town="市辖区" />
+			<town townID="140105" town="小店区" />
+			<town townID="140106" town="迎泽区" />
+			<town townID="140107" town="杏花岭区" />
+			<town townID="140108" town="尖草坪区" />
+			<town townID="140109" town="万柏林区" />
+			<town townID="140110" town="晋源区" />
+			<town townID="140121" town="清徐县" />
+			<town townID="140122" town="阳曲县" />
+			<town townID="140123" town="娄烦县" />
+			<town townID="140181" town="古交市" />
+		</city>
+		<city cityID="140200" city="大同">
+			<town townID="140201" town="市辖区" />
+			<town townID="140202" town="城　区" />
+			<town townID="140203" town="矿　区" />
+			<town townID="140211" town="南郊区" />
+			<town townID="140212" town="新荣区" />
+			<town townID="140221" town="阳高县" />
+			<town townID="140222" town="天镇县" />
+			<town townID="140223" town="广灵县" />
+			<town townID="140224" town="灵丘县" />
+			<town townID="140225" town="浑源县" />
+			<town townID="140226" town="左云县" />
+			<town townID="140227" town="大同县" />
+		</city>
+		<city cityID="140300" city="阳泉">
+			<town townID="140301" town="市辖区" />
+			<town townID="140302" town="城　区" />
+			<town townID="140303" town="矿　区" />
+			<town townID="140311" town="郊　区" />
+			<town townID="140321" town="平定县" />
+			<town townID="140322" town="盂　县" />
+		</city>
+		<city cityID="140400" city="长治">
+			<town townID="140401" town="市辖区" />
+			<town townID="140402" town="城　区" />
+			<town townID="140411" town="郊　区" />
+			<town townID="140421" town="长治县" />
+			<town townID="140423" town="襄垣县" />
+			<town townID="140424" town="屯留县" />
+			<town townID="140425" town="平顺县" />
+			<town townID="140426" town="黎城县" />
+			<town townID="140427" town="壶关县" />
+			<town townID="140428" town="长子县" />
+			<town townID="140429" town="武乡县" />
+			<town townID="140430" town="沁　县" />
+			<town townID="140431" town="沁源县" />
+			<town townID="140481" town="潞城市" />
+		</city>
+		<city cityID="140500" city="晋城">
+			<town townID="140501" town="市辖区" />
+			<town townID="140502" town="城　区" />
+			<town townID="140521" town="沁水县" />
+			<town townID="140522" town="阳城县" />
+			<town townID="140524" town="陵川县" />
+			<town townID="140525" town="泽州县" />
+			<town townID="140581" town="高平市" />
+		</city>
+		<city cityID="140600" city="朔州">
+			<town townID="140601" town="市辖区" />
+			<town townID="140602" town="朔城区" />
+			<town townID="140603" town="平鲁区" />
+			<town townID="140621" town="山阴县" />
+			<town townID="140622" town="应　县" />
+			<town townID="140623" town="右玉县" />
+			<town townID="140624" town="怀仁县" />
+		</city>
+		<city cityID="140700" city="晋中">
+			<town townID="140701" town="市辖区" />
+			<town townID="140702" town="榆次区" />
+			<town townID="140721" town="榆社县" />
+			<town townID="140722" town="左权县" />
+			<town townID="140723" town="和顺县" />
+			<town townID="140724" town="昔阳县" />
+			<town townID="140725" town="寿阳县" />
+			<town townID="140726" town="太谷县" />
+			<town townID="140727" town="祁　县" />
+			<town townID="140728" town="平遥县" />
+			<town townID="140729" town="灵石县" />
+			<town townID="140781" town="介休市" />
+		</city>
+		<city cityID="140800" city="运城">
+			<town townID="140801" town="市辖区" />
+			<town townID="140802" town="盐湖区" />
+			<town townID="140821" town="临猗县" />
+			<town townID="140822" town="万荣县" />
+			<town townID="140823" town="闻喜县" />
+			<town townID="140824" town="稷山县" />
+			<town townID="140825" town="新绛县" />
+			<town townID="140826" town="绛　县" />
+			<town townID="140827" town="垣曲县" />
+			<town townID="140828" town="夏　县" />
+			<town townID="140829" town="平陆县" />
+			<town townID="140830" town="芮城县" />
+			<town townID="140881" town="永济市" />
+			<town townID="140882" town="河津市" />
+		</city>
+		<city cityID="140900" city="忻州">
+			<town townID="140901" town="市辖区" />
+			<town townID="140902" town="忻府区" />
+			<town townID="140921" town="定襄县" />
+			<town townID="140922" town="五台县" />
+			<town townID="140923" town="代　县" />
+			<town townID="140924" town="繁峙县" />
+			<town townID="140925" town="宁武县" />
+			<town townID="140926" town="静乐县" />
+			<town townID="140927" town="神池县" />
+			<town townID="140928" town="五寨县" />
+			<town townID="140929" town="岢岚县" />
+			<town townID="140930" town="河曲县" />
+			<town townID="140931" town="保德县" />
+			<town townID="140932" town="偏关县" />
+			<town townID="140981" town="原平市" />
+		</city>
+		<city cityID="141000" city="临汾">
+			<town townID="141001" town="市辖区" />
+			<town townID="141002" town="尧都区" />
+			<town townID="141021" town="曲沃县" />
+			<town townID="141022" town="翼城县" />
+			<town townID="141023" town="襄汾县" />
+			<town townID="141024" town="洪洞县" />
+			<town townID="141025" town="古　县" />
+			<town townID="141026" town="安泽县" />
+			<town townID="141027" town="浮山县" />
+			<town townID="141028" town="吉　县" />
+			<town townID="141029" town="乡宁县" />
+			<town townID="141030" town="大宁县" />
+			<town townID="141031" town="隰　县" />
+			<town townID="141032" town="永和县" />
+			<town townID="141033" town="蒲　县" />
+			<town townID="141034" town="汾西县" />
+			<town townID="141081" town="侯马市" />
+			<town townID="141082" town="霍州市" />
+		</city>
+		<city cityID="141100" city="吕梁">
+			<town townID="141101" town="市辖区" />
+			<town townID="141102" town="离石区" />
+			<town townID="141121" town="文水县" />
+			<town townID="141122" town="交城县" />
+			<town townID="141123" town="兴　县" />
+			<town townID="141124" town="临　县" />
+			<town townID="141125" town="柳林县" />
+			<town townID="141126" town="石楼县" />
+			<town townID="141127" town="岚　县" />
+			<town townID="141128" town="方山县" />
+			<town townID="141129" town="中阳县" />
+			<town townID="141130" town="交口县" />
+			<town townID="141181" town="孝义市" />
+			<town townID="141182" town="汾阳市" />
+		</city>
+	</province>
+
+	<province ID="14" provinceID="410000" province="河南">
+		<city cityID="410100" city="郑州">
+			<town townID="410101" town="市辖区" />
+			<town townID="410102" town="中原区" />
+			<town townID="410103" town="二七区" />
+			<town townID="410104" town="管城回族区" />
+			<town townID="410105" town="金水区" />
+			<town townID="410106" town="上街区" />
+			<town townID="410108" town="邙山区" />
+			<town townID="410122" town="中牟县" />
+			<town townID="410181" town="巩义市" />
+			<town townID="410182" town="荥阳市" />
+			<town townID="410183" town="新密市" />
+			<town townID="410184" town="新郑市" />
+			<town townID="410185" town="登封市" />
+		</city>
+		<city cityID="410200" city="开封">
+			<town townID="410201" town="市辖区" />
+			<town townID="410202" town="龙亭区" />
+			<town townID="410203" town="顺河回族区" />
+			<town townID="410204" town="鼓楼区" />
+			<town townID="410205" town="南关区" />
+			<town townID="410211" town="郊　区" />
+			<town townID="410221" town="杞　县" />
+			<town townID="410222" town="通许县" />
+			<town townID="410223" town="尉氏县" />
+			<town townID="410224" town="开封县" />
+			<town townID="410225" town="兰考县" />
+		</city>
+		<city cityID="410300" city="洛阳">
+			<town townID="410301" town="市辖区" />
+			<town townID="410302" town="老城区" />
+			<town townID="410303" town="西工区" />
+			<town townID="410304" town="廛河回族区" />
+			<town townID="410305" town="涧西区" />
+			<town townID="410306" town="吉利区" />
+			<town townID="410307" town="洛龙区" />
+			<town townID="410322" town="孟津县" />
+			<town townID="410323" town="新安县" />
+			<town townID="410324" town="栾川县" />
+			<town townID="410325" town="嵩　县" />
+			<town townID="410326" town="汝阳县" />
+			<town townID="410327" town="宜阳县" />
+			<town townID="410328" town="洛宁县" />
+			<town townID="410329" town="伊川县" />
+			<town townID="410381" town="偃师市" />
+		</city>
+		<city cityID="410400" city="平顶山">
+			<town townID="410401" town="市辖区" />
+			<town townID="410402" town="新华区" />
+			<town townID="410403" town="卫东区" />
+			<town townID="410404" town="石龙区" />
+			<town townID="410411" town="湛河区" />
+			<town townID="410421" town="宝丰县" />
+			<town townID="410422" town="叶　县" />
+			<town townID="410423" town="鲁山县" />
+			<town townID="410425" town="郏　县" />
+			<town townID="410481" town="舞钢市" />
+			<town townID="410482" town="汝州市" />
+		</city>
+		<city cityID="410500" city="安阳">
+			<town townID="410501" town="市辖区" />
+			<town townID="410502" town="文峰区" />
+			<town townID="410503" town="北关区" />
+			<town townID="410505" town="殷都区" />
+			<town townID="410506" town="龙安区" />
+			<town townID="410522" town="安阳县" />
+			<town townID="410523" town="汤阴县" />
+			<town townID="410526" town="滑　县" />
+			<town townID="410527" town="内黄县" />
+			<town townID="410581" town="林州市" />
+		</city>
+		<city cityID="410600" city="鹤壁">
+			<town townID="410601" town="市辖区" />
+			<town townID="410602" town="鹤山区" />
+			<town townID="410603" town="山城区" />
+			<town townID="410611" town="淇滨区" />
+			<town townID="410621" town="浚　县" />
+			<town townID="410622" town="淇　县" />
+		</city>
+		<city cityID="410700" city="新乡">
+			<town townID="410701" town="市辖区" />
+			<town townID="410702" town="红旗区" />
+			<town townID="410703" town="卫滨区" />
+			<town townID="410704" town="凤泉区" />
+			<town townID="410711" town="牧野区" />
+			<town townID="410721" town="新乡县" />
+			<town townID="410724" town="获嘉县" />
+			<town townID="410725" town="原阳县" />
+			<town townID="410726" town="延津县" />
+			<town townID="410727" town="封丘县" />
+			<town townID="410728" town="长垣县" />
+			<town townID="410781" town="卫辉市" />
+			<town townID="410782" town="辉县市" />
+		</city>
+		<city cityID="410800" city="焦作">
+			<town townID="410801" town="市辖区" />
+			<town townID="410802" town="解放区" />
+			<town townID="410803" town="中站区" />
+			<town townID="410804" town="马村区" />
+			<town townID="410811" town="山阳区" />
+			<town townID="410821" town="修武县" />
+			<town townID="410822" town="博爱县" />
+			<town townID="410823" town="武陟县" />
+			<town townID="410825" town="温　县" />
+			<town townID="410881" town="济源市" />
+			<town townID="410882" town="沁阳市" />
+			<town townID="410883" town="孟州市" />
+		</city>
+		<city cityID="410900" city="濮阳">
+			<town townID="410901" town="市辖区" />
+			<town townID="410902" town="华龙区" />
+			<town townID="410922" town="清丰县" />
+			<town townID="410923" town="南乐县" />
+			<town townID="410926" town="范　县" />
+			<town townID="410927" town="台前县" />
+			<town townID="410928" town="濮阳县" />
+		</city>
+		<city cityID="411000" city="许昌">
+			<town townID="411001" town="市辖区" />
+			<town townID="411002" town="魏都区" />
+			<town townID="411023" town="许昌县" />
+			<town townID="411024" town="鄢陵县" />
+			<town townID="411025" town="襄城县" />
+			<town townID="411081" town="禹州市" />
+			<town townID="411082" town="长葛市" />
+		</city>
+		<city cityID="411100" city="漯河">
+			<town townID="411101" town="市辖区" />
+			<town townID="411102" town="源汇区" />
+			<town townID="411103" town="郾城区" />
+			<town townID="411104" town="召陵区" />
+			<town townID="411121" town="舞阳县" />
+			<town townID="411122" town="临颍县" />
+		</city>
+		<city cityID="411200" city="三门峡">
+			<town townID="411201" town="市辖区" />
+			<town townID="411202" town="湖滨区" />
+			<town townID="411221" town="渑池县" />
+			<town townID="411222" town="陕　县" />
+			<town townID="411224" town="卢氏县" />
+			<town townID="411281" town="义马市" />
+			<town townID="411282" town="灵宝市" />
+		</city>
+		<city cityID="411300" city="南阳">
+			<town townID="411301" town="市辖区" />
+			<town townID="411302" town="宛城区" />
+			<town townID="411303" town="卧龙区" />
+			<town townID="411321" town="南召县" />
+			<town townID="411322" town="方城县" />
+			<town townID="411323" town="西峡县" />
+			<town townID="411324" town="镇平县" />
+			<town townID="411325" town="内乡县" />
+			<town townID="411326" town="淅川县" />
+			<town townID="411327" town="社旗县" />
+			<town townID="411328" town="唐河县" />
+			<town townID="411329" town="新野县" />
+			<town townID="411330" town="桐柏县" />
+			<town townID="411381" town="邓州市" />
+		</city>
+		<city cityID="411400" city="商丘">
+			<town townID="411401" town="市辖区" />
+			<town townID="411402" town="梁园区" />
+			<town townID="411403" town="睢阳区" />
+			<town townID="411421" town="民权县" />
+			<town townID="411422" town="睢　县" />
+			<town townID="411423" town="宁陵县" />
+			<town townID="411424" town="柘城县" />
+			<town townID="411425" town="虞城县" />
+			<town townID="411426" town="夏邑县" />
+			<town townID="411481" town="永城市" />
+		</city>
+		<city cityID="411500" city="信阳">
+			<town townID="411501" town="市辖区" />
+			<town townID="411502" town="师河区" />
+			<town townID="411503" town="平桥区" />
+			<town townID="411521" town="罗山县" />
+			<town townID="411522" town="光山县" />
+			<town townID="411523" town="新　县" />
+			<town townID="411524" town="商城县" />
+			<town townID="411525" town="固始县" />
+			<town townID="411526" town="潢川县" />
+			<town townID="411527" town="淮滨县" />
+			<town townID="411528" town="息　县" />
+		</city>
+		<city cityID="411600" city="周口">
+			<town townID="411601" town="市辖区" />
+			<town townID="411602" town="川汇区" />
+			<town townID="411621" town="扶沟县" />
+			<town townID="411622" town="西华县" />
+			<town townID="411623" town="商水县" />
+			<town townID="411624" town="沈丘县" />
+			<town townID="411625" town="郸城县" />
+			<town townID="411626" town="淮阳县" />
+			<town townID="411627" town="太康县" />
+			<town townID="411628" town="鹿邑县" />
+			<town townID="411681" town="项城市" />
+		</city>
+		<city cityID="411700" city="驻马店">
+			<town townID="411701" town="市辖区" />
+			<town townID="411702" town="驿城区" />
+			<town townID="411721" town="西平县" />
+			<town townID="411722" town="上蔡县" />
+			<town townID="411723" town="平舆县" />
+			<town townID="411724" town="正阳县" />
+			<town townID="411725" town="确山县" />
+			<town townID="411726" town="泌阳县" />
+			<town townID="411727" town="汝南县" />
+			<town townID="411728" town="遂平县" />
+			<town townID="411729" town="新蔡县" />
+		</city>
+	</province>
+
+
+
+
+
+	<province ID="15" provinceID="220000" province="吉林">
+		<city cityID="220100" city="长春">
+			<town townID="220101" town="市辖区" />
+			<town townID="220102" town="南关区" />
+			<town townID="220103" town="宽城区" />
+			<town townID="220104" town="朝阳区" />
+			<town townID="220105" town="二道区" />
+			<town townID="220106" town="绿园区" />
+			<town townID="220112" town="双阳区" />
+			<town townID="220122" town="农安县" />
+			<town townID="220181" town="九台市" />
+			<town townID="220182" town="榆树市" />
+			<town townID="220183" town="德惠市" />
+		</city>
+		<city cityID="220200" city="吉林">
+			<town townID="220201" town="市辖区" />
+			<town townID="220202" town="昌邑区" />
+			<town townID="220203" town="龙潭区" />
+			<town townID="220204" town="船营区" />
+			<town townID="220211" town="丰满区" />
+			<town townID="220221" town="永吉县" />
+			<town townID="220281" town="蛟河市" />
+			<town townID="220282" town="桦甸市" />
+			<town townID="220283" town="舒兰市" />
+			<town townID="220284" town="磐石市" />
+		</city>
+		<city cityID="220300" city="四平">
+			<town townID="220301" town="市辖区" />
+			<town townID="220302" town="铁西区" />
+			<town townID="220303" town="铁东区" />
+			<town townID="220322" town="梨树县" />
+			<town townID="220323" town="伊通满族自治县" />
+			<town townID="220381" town="公主岭市" />
+			<town townID="220382" town="双辽市" />
+		</city>
+		<city cityID="220400" city="辽源">
+			<town townID="220401" town="市辖区" />
+			<town townID="220402" town="龙山区" />
+			<town townID="220403" town="西安区" />
+			<town townID="220421" town="东丰县" />
+			<town townID="220422" town="东辽县" />
+		</city>
+		<city cityID="220500" city="通化">
+			<town townID="220501" town="市辖区" />
+			<town townID="220502" town="东昌区" />
+			<town townID="220503" town="二道江区" />
+			<town townID="220521" town="通化县" />
+			<town townID="220523" town="辉南县" />
+			<town townID="220524" town="柳河县" />
+			<town townID="220581" town="梅河口市" />
+			<town townID="220582" town="集安市" />
+		</city>
+		<city cityID="220600" city="白山">
+			<town townID="220601" town="市辖区" />
+			<town townID="220602" town="八道江区" />
+			<town townID="220621" town="抚松县" />
+			<town townID="220622" town="靖宇县" />
+			<town townID="220623" town="长白朝鲜族自治县" />
+			<town townID="220625" town="江源县" />
+			<town townID="220681" town="临江市" />
+		</city>
+		<city cityID="220700" city="松原">
+			<town townID="220701" town="市辖区" />
+			<town townID="220702" town="宁江区" />
+			<town townID="220721" town="前郭尔罗斯蒙古族自治县" />
+			<town townID="220722" town="长岭县" />
+			<town townID="220723" town="乾安县" />
+			<town townID="220724" town="扶余县" />
+		</city>
+		<city cityID="220800" city="白城">
+			<town townID="220801" town="市辖区" />
+			<town townID="220802" town="洮北区" />
+			<town townID="220821" town="镇赉县" />
+			<town townID="220822" town="通榆县" />
+			<town townID="220881" town="洮南市" />
+			<town townID="220882" town="大安市" />
+		</city>
+		<city cityID="222400" city="延边朝鲜族自治州">
+			<town townID="222401" town="延吉市" />
+			<town townID="222402" town="图们市" />
+			<town townID="222403" town="敦化市" />
+			<town townID="222404" town="珲春市" />
+			<town townID="222405" town="龙井市" />
+			<town townID="222406" town="和龙市" />
+			<town townID="222424" town="汪清县" />
+			<town townID="222426" town="安图县" />
+		</city>
+	</province>
+
+	<province ID="17" provinceID="340000" province="安徽">
+		<city cityID="340100" city="合肥">
+			<town townID="340101" town="市辖区" />
+			<town townID="340102" town="瑶海区" />
+			<town townID="340103" town="庐阳区" />
+			<town townID="340104" town="蜀山区" />
+			<town townID="340111" town="包河区" />
+			<town townID="340121" town="长丰县" />
+			<town townID="340122" town="肥东县" />
+			<town townID="340123" town="肥西县" />
+		</city>
+		<city cityID="340200" city="芜湖">
+			<town townID="340201" town="市辖区" />
+			<town townID="340202" town="镜湖区" />
+			<town townID="340203" town="马塘区" />
+			<town townID="340204" town="新芜区" />
+			<town townID="340207" town="鸠江区" />
+			<town townID="340221" town="芜湖县" />
+			<town townID="340222" town="繁昌县" />
+			<town townID="340223" town="南陵县" />
+		</city>
+		<city cityID="340300" city="蚌埠">
+			<town townID="340301" town="市辖区" />
+			<town townID="340302" town="龙子湖区" />
+			<town townID="340303" town="蚌山区" />
+			<town townID="340304" town="禹会区" />
+			<town townID="340311" town="淮上区" />
+			<town townID="340321" town="怀远县" />
+			<town townID="340322" town="五河县" />
+			<town townID="340323" town="固镇县" />
+		</city>
+		<city cityID="340400" city="淮南">
+			<town townID="340401" town="市辖区" />
+			<town townID="340402" town="大通区" />
+			<town townID="340403" town="田家庵区" />
+			<town townID="340404" town="谢家集区" />
+			<town townID="340405" town="八公山区" />
+			<town townID="340406" town="潘集区" />
+			<town townID="340421" town="凤台县" />
+		</city>
+
+		<city cityID="340600" city="淮北">
+			<town townID="340601" town="市辖区" />
+			<town townID="340602" town="杜集区" />
+			<town townID="340603" town="相山区" />
+			<town townID="340604" town="烈山区" />
+			<town townID="340621" town="濉溪县" />
+		</city>
+		<city cityID="340700" city="铜陵">
+			<town townID="340701" town="市辖区" />
+			<town townID="340702" town="铜官山区" />
+			<town townID="340703" town="狮子山区" />
+			<town townID="340711" town="郊　区" />
+			<town townID="340721" town="铜陵县" />
+		</city>
+		<city cityID="340800" city="安庆">
+			<town townID="340801" town="市辖区" />
+			<town townID="340802" town="迎江区" />
+			<town townID="340803" town="大观区" />
+			<town townID="340811" town="郊　区" />
+			<town townID="340822" town="怀宁县" />
+			<town townID="340823" town="枞阳县" />
+			<town townID="340824" town="潜山县" />
+			<town townID="340825" town="太湖县" />
+			<town townID="340826" town="宿松县" />
+			<town townID="340827" town="望江县" />
+			<town townID="340828" town="岳西县" />
+			<town townID="340881" town="桐城市" />
+		</city>
+		<city cityID="341000" city="黄山">
+			<town townID="341001" town="市辖区" />
+			<town townID="341002" town="屯溪区" />
+			<town townID="341003" town="黄山区" />
+			<town townID="341004" town="徽州区" />
+			<town townID="341021" town="歙　县" />
+			<town townID="341022" town="休宁县" />
+			<town townID="341023" town="黟　县" />
+			<town townID="341024" town="祁门县" />
+		</city>
+		<city cityID="341100" city="滁州">
+			<town townID="341101" town="市辖区" />
+			<town townID="341102" town="琅琊区" />
+			<town townID="341103" town="南谯区" />
+			<town townID="341122" town="来安县" />
+			<town townID="341124" town="全椒县" />
+			<town townID="341125" town="定远县" />
+			<town townID="341126" town="凤阳县" />
+			<town townID="341181" town="天长市" />
+			<town townID="341182" town="明光市" />
+		</city>
+		<city cityID="341200" city="阜阳">
+			<town townID="341201" town="市辖区" />
+			<town townID="341202" town="颍州区" />
+			<town townID="341203" town="颍东区" />
+			<town townID="341204" town="颍泉区" />
+			<town townID="341221" town="临泉县" />
+			<town townID="341222" town="太和县" />
+			<town townID="341225" town="阜南县" />
+			<town townID="341226" town="颍上县" />
+			<town townID="341282" town="界首市" />
+		</city>
+		<city cityID="341300" city="宿州">
+			<town townID="341301" town="市辖区" />
+			<town townID="341302" town="墉桥区" />
+			<town townID="341321" town="砀山县" />
+			<town townID="341322" town="萧　县" />
+			<town townID="341323" town="灵璧县" />
+			<town townID="341324" town="泗　县" />
+		</city>
+		<city cityID="341400" city="巢湖">
+			<town townID="341401" town="市辖区" />
+			<town townID="341402" town="居巢区" />
+			<town townID="341421" town="庐江县" />
+			<town townID="341422" town="无为县" />
+			<town townID="341423" town="含山县" />
+			<town townID="341424" town="和　县" />
+		</city>
+		<city cityID="341500" city="六安">
+			<town townID="341501" town="市辖区" />
+			<town townID="341502" town="金安区" />
+			<town townID="341503" town="裕安区" />
+			<town townID="341521" town="寿　县" />
+			<town townID="341522" town="霍邱县" />
+			<town townID="341523" town="舒城县" />
+			<town townID="341524" town="金寨县" />
+			<town townID="341525" town="霍山县" />
+		</city>
+		<city cityID="341600" city="亳州">
+			<town townID="341601" town="市辖区" />
+			<town townID="341602" town="谯城区" />
+			<town townID="341621" town="涡阳县" />
+			<town townID="341622" town="蒙城县" />
+			<town townID="341623" town="利辛县" />
+		</city>
+		<city cityID="341700" city="池州">
+			<town townID="341701" town="市辖区" />
+			<town townID="341702" town="贵池区" />
+			<town townID="341721" town="东至县" />
+			<town townID="341722" town="石台县" />
+			<town townID="341723" town="青阳县" />
+		</city>
+		<city cityID="341800" city="宣城">
+			<town townID="341801" town="市辖区" />
+			<town townID="341802" town="宣州区" />
+			<town townID="341821" town="郎溪县" />
+			<town townID="341822" town="广德县" />
+			<town townID="341823" town="泾　县" />
+			<town townID="341824" town="绩溪县" />
+			<town townID="341825" town="旌德县" />
+			<town townID="341881" town="宁国市" />
+		</city>
+		<city cityID="340500" city="马鞍山">
+			<town townID="340501" town="市辖区" />
+			<town townID="340502" town="金家庄区" />
+			<town townID="340503" town="花山区" />
+			<town townID="340504" town="雨山区" />
+			<town townID="340521" town="当涂县" />
+		</city>
+	</province>
+
+	<province ID="16" provinceID="370000" province="山东">
+		<city cityID="370100" city="济南">
+			<town townID="370101" town="市辖区" />
+			<town townID="370102" town="历下区" />
+			<town townID="370103" town="市中区" />
+			<town townID="370104" town="槐荫区" />
+			<town townID="370105" town="天桥区" />
+			<town townID="370112" town="历城区" />
+			<town townID="370113" town="长清区" />
+			<town townID="370124" town="平阴县" />
+			<town townID="370125" town="济阳县" />
+			<town townID="370126" town="商河县" />
+			<town townID="370181" town="章丘市" />
+		</city>
+		<city cityID="370200" city="青岛">
+			<town townID="370201" town="市辖区" />
+			<town townID="370202" town="市南区" />
+			<town townID="370203" town="市北区" />
+			<town townID="370205" town="四方区" />
+			<town townID="370211" town="黄岛区" />
+			<town townID="370212" town="崂山区" />
+			<town townID="370213" town="李沧区" />
+			<town townID="370214" town="城阳区" />
+			<town townID="370281" town="胶州市" />
+			<town townID="370282" town="即墨市" />
+			<town townID="370283" town="平度市" />
+			<town townID="370284" town="胶南市" />
+			<town townID="370285" town="莱西市" />
+		</city>
+		<city cityID="370300" city="淄博">
+			<town townID="370301" town="市辖区" />
+			<town townID="370302" town="淄川区" />
+			<town townID="370303" town="张店区" />
+			<town townID="370304" town="博山区" />
+			<town townID="370305" town="临淄区" />
+			<town townID="370306" town="周村区" />
+			<town townID="370321" town="桓台县" />
+			<town townID="370322" town="高青县" />
+			<town townID="370323" town="沂源县" />
+		</city>
+		<city cityID="370400" city="枣庄">
+			<town townID="370401" town="市辖区" />
+			<town townID="370402" town="市中区" />
+			<town townID="370403" town="薛城区" />
+			<town townID="370404" town="峄城区" />
+			<town townID="370405" town="台儿庄区" />
+			<town townID="370406" town="山亭区" />
+			<town townID="370481" town="滕州市" />
+		</city>
+		<city cityID="370500" city="东营">
+			<town townID="370501" town="市辖区" />
+			<town townID="370502" town="东营区" />
+			<town townID="370503" town="河口区" />
+			<town townID="370521" town="垦利县" />
+			<town townID="370522" town="利津县" />
+			<town townID="370523" town="广饶县" />
+		</city>
+		<city cityID="370600" city="烟台">
+			<town townID="370601" town="市辖区" />
+			<town townID="370602" town="芝罘区" />
+			<town townID="370611" town="福山区" />
+			<town townID="370612" town="牟平区" />
+			<town townID="370613" town="莱山区" />
+			<town townID="370634" town="长岛县" />
+			<town townID="370681" town="龙口市" />
+			<town townID="370682" town="莱阳市" />
+			<town townID="370683" town="莱州市" />
+			<town townID="370684" town="蓬莱市" />
+			<town townID="370685" town="招远市" />
+			<town townID="370686" town="栖霞市" />
+			<town townID="370687" town="海阳市" />
+		</city>
+		<city cityID="370700" city="潍坊">
+			<town townID="370701" town="市辖区" />
+			<town townID="370702" town="潍城区" />
+			<town townID="370703" town="寒亭区" />
+			<town townID="370704" town="坊子区" />
+			<town townID="370705" town="奎文区" />
+			<town townID="370724" town="临朐县" />
+			<town townID="370725" town="昌乐县" />
+			<town townID="370781" town="青州市" />
+			<town townID="370782" town="诸城市" />
+			<town townID="370783" town="寿光市" />
+			<town townID="370784" town="安丘市" />
+			<town townID="370785" town="高密市" />
+			<town townID="370786" town="昌邑市" />
+		</city>
+		<city cityID="370800" city="济宁">
+			<town townID="370801" town="市辖区" />
+			<town townID="370802" town="市中区" />
+			<town townID="370811" town="任城区" />
+			<town townID="370826" town="微山县" />
+			<town townID="370827" town="鱼台县" />
+			<town townID="370828" town="金乡县" />
+			<town townID="370829" town="嘉祥县" />
+			<town townID="370830" town="汶上县" />
+			<town townID="370831" town="泗水县" />
+			<town townID="370832" town="梁山县" />
+			<town townID="370881" town="曲阜市" />
+			<town townID="370882" town="兖州市" />
+			<town townID="370883" town="邹城市" />
+		</city>
+		<city cityID="370900" city="泰安">
+			<town townID="370901" town="市辖区" />
+			<town townID="370902" town="泰山区" />
+			<town townID="370903" town="岱岳区" />
+			<town townID="370921" town="宁阳县" />
+			<town townID="370923" town="东平县" />
+			<town townID="370982" town="新泰市" />
+			<town townID="370983" town="肥城市" />
+		</city>
+		<city cityID="371000" city="威海">
+			<town townID="371001" town="市辖区" />
+			<town townID="371002" town="环翠区" />
+			<town townID="371081" town="文登市" />
+			<town townID="371082" town="荣成市" />
+			<town townID="371083" town="乳山市" />
+		</city>
+		<city cityID="371100" city="日照">
+			<town townID="371101" town="市辖区" />
+			<town townID="371102" town="东港区" />
+			<town townID="371103" town="岚山区" />
+			<town townID="371121" town="五莲县" />
+			<town townID="371122" town="莒　县" />
+		</city>
+		<city cityID="371200" city="莱芜">
+			<town townID="371201" town="市辖区" />
+			<town townID="371202" town="莱城区" />
+			<town townID="371203" town="钢城区" />
+		</city>
+		<city cityID="371300" city="临沂">
+			<town townID="371301" town="市辖区" />
+			<town townID="371302" town="兰山区" />
+			<town townID="371311" town="罗庄区" />
+			<town townID="371312" town="河东区" />
+			<town townID="371321" town="沂南县" />
+			<town townID="371322" town="郯城县" />
+			<town townID="371323" town="沂水县" />
+			<town townID="371324" town="苍山县" />
+			<town townID="371325" town="费　县" />
+			<town townID="371326" town="平邑县" />
+			<town townID="371327" town="莒南县" />
+			<town townID="371328" town="蒙阴县" />
+			<town townID="371329" town="临沭县" />
+		</city>
+		<city cityID="371400" city="德州">
+			<town townID="371401" town="市辖区" />
+			<town townID="371402" town="德城区" />
+			<town townID="371421" town="陵　县" />
+			<town townID="371422" town="宁津县" />
+			<town townID="371423" town="庆云县" />
+			<town townID="371424" town="临邑县" />
+			<town townID="371425" town="齐河县" />
+			<town townID="371426" town="平原县" />
+			<town townID="371427" town="夏津县" />
+			<town townID="371428" town="武城县" />
+			<town townID="371481" town="乐陵市" />
+			<town townID="371482" town="禹城市" />
+		</city>
+		<city cityID="371500" city="聊城">
+			<town townID="371501" town="市辖区" />
+			<town townID="371502" town="东昌府区" />
+			<town townID="371521" town="阳谷县" />
+			<town townID="371522" town="莘　县" />
+			<town townID="371523" town="茌平县" />
+			<town townID="371524" town="东阿县" />
+			<town townID="371525" town="冠　县" />
+			<town townID="371526" town="高唐县" />
+			<town townID="371581" town="临清市" />
+		</city>
+		<city cityID="371600" city="滨州">
+			<town townID="371601" town="市辖区" />
+			<town townID="371602" town="滨城区" />
+			<town townID="371621" town="惠民县" />
+			<town townID="371622" town="阳信县" />
+			<town townID="371623" town="无棣县" />
+			<town townID="371624" town="沾化县" />
+			<town townID="371625" town="博兴县" />
+			<town townID="371626" town="邹平县" />
+		</city>
+		<city cityID="371700" city="荷泽">
+			<town townID="371701" town="市辖区" />
+			<town townID="371702" town="牡丹区" />
+			<town townID="371721" town="曹　县" />
+			<town townID="371722" town="单　县" />
+			<town townID="371723" town="成武县" />
+			<town townID="371724" town="巨野县" />
+			<town townID="371725" town="郓城县" />
+			<town townID="371726" town="鄄城县" />
+			<town townID="371727" town="定陶县" />
+			<town townID="371728" town="东明县" />
+		</city>
+	</province>
+
+	<province ID="18" provinceID="330000" province="浙江">
+		<city cityID="330100" city="杭州">
+			<town townID="330101" town="市辖区" />
+			<town townID="330102" town="上城区" />
+			<town townID="330103" town="下城区" />
+			<town townID="330104" town="江干区" />
+			<town townID="330105" town="拱墅区" />
+			<town townID="330106" town="西湖区" />
+			<town townID="330108" town="滨江区" />
+			<town townID="330109" town="萧山区" />
+			<town townID="330110" town="余杭区" />
+			<town townID="330122" town="桐庐县" />
+			<town townID="330127" town="淳安县" />
+			<town townID="330182" town="建德市" />
+			<town townID="330183" town="富阳市" />
+			<town townID="330185" town="临安市" />
+		</city>
+		<city cityID="330200" city="宁波">
+			<town townID="330201" town="市辖区" />
+			<town townID="330203" town="海曙区" />
+			<town townID="330204" town="江东区" />
+			<town townID="330205" town="江北区" />
+			<town townID="330206" town="北仑区" />
+			<town townID="330211" town="镇海区" />
+			<town townID="330212" town="鄞州区" />
+			<town townID="330225" town="象山县" />
+			<town townID="330226" town="宁海县" />
+			<town townID="330281" town="余姚市" />
+			<town townID="330282" town="慈溪市" />
+			<town townID="330283" town="奉化市" />
+		</city>
+		<city cityID="330300" city="温州">
+			<town townID="330301" town="市辖区" />
+			<town townID="330302" town="鹿城区" />
+			<town townID="330303" town="龙湾区" />
+			<town townID="330304" town="瓯海区" />
+			<town townID="330322" town="洞头县" />
+			<town townID="330324" town="永嘉县" />
+			<town townID="330326" town="平阳县" />
+			<town townID="330327" town="苍南县" />
+			<town townID="330328" town="文成县" />
+			<town townID="330329" town="泰顺县" />
+			<town townID="330381" town="瑞安市" />
+			<town townID="330382" town="乐清市" />
+		</city>
+		<city cityID="330400" city="嘉兴">
+			<town townID="330401" town="市辖区" />
+			<town townID="330402" town="秀城区" />
+			<town townID="330411" town="秀洲区" />
+			<town townID="330421" town="嘉善县" />
+			<town townID="330424" town="海盐县" />
+			<town townID="330481" town="海宁市" />
+			<town townID="330482" town="平湖市" />
+			<town townID="330483" town="桐乡市" />
+		</city>
+		<city cityID="330500" city="湖州">
+			<town townID="330501" town="市辖区" />
+			<town townID="330502" town="吴兴区" />
+			<town townID="330503" town="南浔区" />
+			<town townID="330521" town="德清县" />
+			<town townID="330522" town="长兴县" />
+			<town townID="330523" town="安吉县" />
+		</city>
+		<city cityID="330600" city="绍兴">
+			<town townID="330601" town="市辖区" />
+			<town townID="330602" town="越城区" />
+			<town townID="330621" town="绍兴县" />
+			<town townID="330624" town="新昌县" />
+			<town townID="330681" town="诸暨市" />
+			<town townID="330682" town="上虞市" />
+			<town townID="330683" town="嵊州市" />
+		</city>
+		<city cityID="330700" city="金华">
+			<town townID="330701" town="市辖区" />
+			<town townID="330702" town="婺城区" />
+			<town townID="330703" town="金东区" />
+			<town townID="330723" town="武义县" />
+			<town townID="330726" town="浦江县" />
+			<town townID="330727" town="磐安县" />
+			<town townID="330781" town="兰溪市" />
+			<town townID="330782" town="义乌市" />
+			<town townID="330783" town="东阳市" />
+			<town townID="330784" town="永康市" />
+		</city>
+		<city cityID="330800" city="衢州">
+			<town townID="330801" town="市辖区" />
+			<town townID="330802" town="柯城区" />
+			<town townID="330803" town="衢江区" />
+			<town townID="330822" town="常山县" />
+			<town townID="330824" town="开化县" />
+			<town townID="330825" town="龙游县" />
+			<town townID="330881" town="江山市" />
+		</city>
+		<city cityID="330900" city="舟山">
+			<town townID="330901" town="市辖区" />
+			<town townID="330902" town="定海区" />
+			<town townID="330903" town="普陀区" />
+			<town townID="330921" town="岱山县" />
+			<town townID="330922" town="嵊泗县" />
+		</city>
+		<city cityID="331000" city="台州">
+			<town townID="331001" town="市辖区" />
+			<town townID="331002" town="椒江区" />
+			<town townID="331003" town="黄岩区" />
+			<town townID="331004" town="路桥区" />
+			<town townID="331021" town="玉环县" />
+			<town townID="331022" town="三门县" />
+			<town townID="331023" town="天台县" />
+			<town townID="331024" town="仙居县" />
+			<town townID="331081" town="温岭市" />
+			<town townID="331082" town="临海市" />
+		</city>
+		<city cityID="331100" city="丽水">
+			<town townID="331101" town="市辖区" />
+			<town townID="331102" town="莲都区" />
+			<town townID="331121" town="青田县" />
+			<town townID="331122" town="缙云县" />
+			<town townID="331123" town="遂昌县" />
+			<town townID="331124" town="松阳县" />
+			<town townID="331125" town="云和县" />
+			<town townID="331126" town="庆元县" />
+			<town townID="331127" town="景宁畲族自治县" />
+			<town townID="331181" town="龙泉市" />
+		</city>
+	</province>
+
+	<province ID="19" provinceID="350000" province="福建">
+		<city cityID="350100" city="福州">
+			<town townID="350101" town="市辖区" />
+			<town townID="350102" town="鼓楼区" />
+			<town townID="350103" town="台江区" />
+			<town townID="350104" town="仓山区" />
+			<town townID="350105" town="马尾区" />
+			<town townID="350111" town="晋安区" />
+			<town townID="350121" town="闽侯县" />
+			<town townID="350122" town="连江县" />
+			<town townID="350123" town="罗源县" />
+			<town townID="350124" town="闽清县" />
+			<town townID="350125" town="永泰县" />
+			<town townID="350128" town="平潭县" />
+			<town townID="350181" town="福清市" />
+			<town townID="350182" town="长乐市" />
+		</city>
+		<city cityID="350200" city="厦门">
+			<town townID="350201" town="市辖区" />
+			<town townID="350203" town="思明区" />
+			<town townID="350205" town="海沧区" />
+			<town townID="350206" town="湖里区" />
+			<town townID="350211" town="集美区" />
+			<town townID="350212" town="同安区" />
+			<town townID="350213" town="翔安区" />
+		</city>
+		<city cityID="350300" city="莆田">
+			<town townID="350301" town="市辖区" />
+			<town townID="350302" town="城厢区" />
+			<town townID="350303" town="涵江区" />
+			<town townID="350304" town="荔城区" />
+			<town townID="350305" town="秀屿区" />
+			<town townID="350322" town="仙游县" />
+		</city>
+		<city cityID="350400" city="三明">
+			<town townID="350401" town="市辖区" />
+			<town townID="350402" town="梅列区" />
+			<town townID="350403" town="三元区" />
+			<town townID="350421" town="明溪县" />
+			<town townID="350423" town="清流县" />
+			<town townID="350424" town="宁化县" />
+			<town townID="350425" town="大田县" />
+			<town townID="350426" town="尤溪县" />
+			<town townID="350427" town="沙　县" />
+			<town townID="350428" town="将乐县" />
+			<town townID="350429" town="泰宁县" />
+			<town townID="350430" town="建宁县" />
+			<town townID="350481" town="永安市" />
+		</city>
+		<city cityID="350500" city="泉州">
+			<town townID="350501" town="市辖区" />
+			<town townID="350502" town="鲤城区" />
+			<town townID="350503" town="丰泽区" />
+			<town townID="350504" town="洛江区" />
+			<town townID="350505" town="泉港区" />
+			<town townID="350521" town="惠安县" />
+			<town townID="350524" town="安溪县" />
+			<town townID="350525" town="永春县" />
+			<town townID="350526" town="德化县" />
+			<town townID="350527" town="金门县" />
+			<town townID="350581" town="石狮市" />
+			<town townID="350582" town="晋江市" />
+			<town townID="350583" town="南安市" />
+		</city>
+		<city cityID="350600" city="漳州">
+			<town townID="350601" town="市辖区" />
+			<town townID="350602" town="芗城区" />
+			<town townID="350603" town="龙文区" />
+			<town townID="350622" town="云霄县" />
+			<town townID="350623" town="漳浦县" />
+			<town townID="350624" town="诏安县" />
+			<town townID="350625" town="长泰县" />
+			<town townID="350626" town="东山县" />
+			<town townID="350627" town="南靖县" />
+			<town townID="350628" town="平和县" />
+			<town townID="350629" town="华安县" />
+			<town townID="350681" town="龙海市" />
+		</city>
+		<city cityID="350700" city="南平">
+			<town townID="350701" town="市辖区" />
+			<town townID="350702" town="延平区" />
+			<town townID="350721" town="顺昌县" />
+			<town townID="350722" town="浦城县" />
+			<town townID="350723" town="光泽县" />
+			<town townID="350724" town="松溪县" />
+			<town townID="350725" town="政和县" />
+			<town townID="350781" town="邵武市" />
+			<town townID="350782" town="武夷山市" />
+			<town townID="350783" town="建瓯市" />
+			<town townID="350784" town="建阳市" />
+		</city>
+		<city cityID="350800" city="龙岩">
+			<town townID="350801" town="市辖区" />
+			<town townID="350802" town="新罗区" />
+			<town townID="350821" town="长汀县" />
+			<town townID="350822" town="永定县" />
+			<town townID="350823" town="上杭县" />
+			<town townID="350824" town="武平县" />
+			<town townID="350825" town="连城县" />
+			<town townID="350881" town="漳平市" />
+		</city>
+		<city cityID="350900" city="宁德">
+			<town townID="350901" town="市辖区" />
+			<town townID="350902" town="蕉城区" />
+			<town townID="350921" town="霞浦县" />
+			<town townID="350922" town="古田县" />
+			<town townID="350923" town="屏南县" />
+			<town townID="350924" town="寿宁县" />
+			<town townID="350925" town="周宁县" />
+			<town townID="350926" town="柘荣县" />
+			<town townID="350981" town="福安市" />
+			<town townID="350982" town="福鼎市" />
+		</city>
+	</province>
+
+
+	<province ID="20" provinceID="430000" province="湖南">
+		<city cityID="430100" city="长沙">
+			<town townID="430101" town="市辖区" />
+			<town townID="430102" town="芙蓉区" />
+			<town townID="430103" town="天心区" />
+			<town townID="430104" town="岳麓区" />
+			<town townID="430105" town="开福区" />
+			<town townID="430111" town="雨花区" />
+			<town townID="430121" town="长沙县" />
+			<town townID="430122" town="望城县" />
+			<town townID="430124" town="宁乡县" />
+			<town townID="430181" town="浏阳市" />
+		</city>
+		<city cityID="430200" city="株洲">
+			<town townID="430201" town="市辖区" />
+			<town townID="430202" town="荷塘区" />
+			<town townID="430203" town="芦淞区" />
+			<town townID="430204" town="石峰区" />
+			<town townID="430211" town="天元区" />
+			<town townID="430221" town="株洲县" />
+			<town townID="430223" town="攸　县" />
+			<town townID="430224" town="茶陵县" />
+			<town townID="430225" town="炎陵县" />
+			<town townID="430281" town="醴陵市" />
+		</city>
+		<city cityID="430300" city="湘潭">
+			<town townID="430301" town="市辖区" />
+			<town townID="430302" town="雨湖区" />
+			<town townID="430304" town="岳塘区" />
+			<town townID="430321" town="湘潭县" />
+			<town townID="430381" town="湘乡市" />
+			<town townID="430382" town="韶山市" />
+		</city>
+		<city cityID="430400" city="衡阳">
+			<town townID="430401" town="市辖区" />
+			<town townID="430405" town="珠晖区" />
+			<town townID="430406" town="雁峰区" />
+			<town townID="430407" town="石鼓区" />
+			<town townID="430408" town="蒸湘区" />
+			<town townID="430412" town="南岳区" />
+			<town townID="430421" town="衡阳县" />
+			<town townID="430422" town="衡南县" />
+			<town townID="430423" town="衡山县" />
+			<town townID="430424" town="衡东县" />
+			<town townID="430426" town="祁东县" />
+			<town townID="430481" town="耒阳市" />
+			<town townID="430482" town="常宁市" />
+		</city>
+		<city cityID="430500" city="邵阳">
+			<town townID="430501" town="市辖区" />
+			<town townID="430502" town="双清区" />
+			<town townID="430503" town="大祥区" />
+			<town townID="430511" town="北塔区" />
+			<town townID="430521" town="邵东县" />
+			<town townID="430522" town="新邵县" />
+			<town townID="430523" town="邵阳县" />
+			<town townID="430524" town="隆回县" />
+			<town townID="430525" town="洞口县" />
+			<town townID="430527" town="绥宁县" />
+			<town townID="430528" town="新宁县" />
+			<town townID="430529" town="城步苗族自治县" />
+			<town townID="430581" town="武冈市" />
+		</city>
+		<city cityID="430600" city="岳阳">
+			<town townID="430601" town="市辖区" />
+			<town townID="430602" town="岳阳楼区" />
+			<town townID="430603" town="云溪区" />
+			<town townID="430611" town="君山区" />
+			<town townID="430621" town="岳阳县" />
+			<town townID="430623" town="华容县" />
+			<town townID="430624" town="湘阴县" />
+			<town townID="430626" town="平江县" />
+			<town townID="430681" town="汨罗市" />
+			<town townID="430682" town="临湘市" />
+		</city>
+		<city cityID="430700" city="常德">
+			<town townID="430701" town="市辖区" />
+			<town townID="430702" town="武陵区" />
+			<town townID="430703" town="鼎城区" />
+			<town townID="430721" town="安乡县" />
+			<town townID="430722" town="汉寿县" />
+			<town townID="430723" town="澧　县" />
+			<town townID="430724" town="临澧县" />
+			<town townID="430725" town="桃源县" />
+			<town townID="430726" town="石门县" />
+			<town townID="430781" town="津市市" />
+		</city>
+		<city cityID="430800" city="张家界">
+			<town townID="430801" town="市辖区" />
+			<town townID="430802" town="永定区" />
+			<town townID="430811" town="武陵源区" />
+			<town townID="430821" town="慈利县" />
+			<town townID="430822" town="桑植县" />
+		</city>
+		<city cityID="430900" city="益阳">
+			<town townID="430901" town="市辖区" />
+			<town townID="430902" town="资阳区" />
+			<town townID="430903" town="赫山区" />
+			<town townID="430921" town="南　县" />
+			<town townID="430922" town="桃江县" />
+			<town townID="430923" town="安化县" />
+			<town townID="430981" town="沅江市" />
+		</city>
+		<city cityID="431000" city="郴州">
+			<town townID="431001" town="市辖区" />
+			<town townID="431002" town="北湖区" />
+			<town townID="431003" town="苏仙区" />
+			<town townID="431021" town="桂阳县" />
+			<town townID="431022" town="宜章县" />
+			<town townID="431023" town="永兴县" />
+			<town townID="431024" town="嘉禾县" />
+			<town townID="431025" town="临武县" />
+			<town townID="431026" town="汝城县" />
+			<town townID="431027" town="桂东县" />
+			<town townID="431028" town="安仁县" />
+			<town townID="431081" town="资兴市" />
+		</city>
+		<city cityID="431100" city="永州">
+			<town townID="431101" town="市辖区" />
+			<town townID="431102" town="芝山区" />
+			<town townID="431103" town="冷水滩区" />
+			<town townID="431121" town="祁阳县" />
+			<town townID="431122" town="东安县" />
+			<town townID="431123" town="双牌县" />
+			<town townID="431124" town="道　县" />
+			<town townID="431125" town="江永县" />
+			<town townID="431126" town="宁远县" />
+			<town townID="431127" town="蓝山县" />
+			<town townID="431128" town="新田县" />
+			<town townID="431129" town="江华瑶族自治县" />
+		</city>
+		<city cityID="431200" city="怀化">
+			<town townID="431201" town="市辖区" />
+			<town townID="431202" town="鹤城区" />
+			<town townID="431221" town="中方县" />
+			<town townID="431222" town="沅陵县" />
+			<town townID="431223" town="辰溪县" />
+			<town townID="431224" town="溆浦县" />
+			<town townID="431225" town="会同县" />
+			<town townID="431226" town="麻阳苗族自治县" />
+			<town townID="431227" town="新晃侗族自治县" />
+			<town townID="431228" town="芷江侗族自治县" />
+			<town townID="431229" town="靖州苗族侗族自治县" />
+			<town townID="431230" town="通道侗族自治县" />
+			<town townID="431281" town="洪江市" />
+		</city>
+		<city cityID="431300" city="娄底">
+			<town townID="431301" town="市辖区" />
+			<town townID="431302" town="娄星区" />
+			<town townID="431321" town="双峰县" />
+			<town townID="431322" town="新化县" />
+			<town townID="431381" town="冷水江市" />
+			<town townID="431382" town="涟源市" />
+		</city>
+		<city cityID="433100" city="湘西土家族苗族自治州">
+			<town townID="433101" town="吉首市" />
+			<town townID="433122" town="泸溪县" />
+			<town townID="433123" town="凤凰县" />
+			<town townID="433124" town="花垣县" />
+			<town townID="433125" town="保靖县" />
+			<town townID="433126" town="古丈县" />
+			<town townID="433127" town="永顺县" />
+			<town townID="433130" town="龙山县" />
+		</city>
+	</province>
+
+
+	<province ID="21" provinceID="450000" province="广西">
+		<city cityID="450100" city="南宁">
+			<town townID="450101" town="市辖区" />
+			<town townID="450102" town="兴宁区" />
+			<town townID="450103" town="青秀区" />
+			<town townID="450105" town="江南区" />
+			<town townID="450107" town="西乡塘区" />
+			<town townID="450108" town="良庆区" />
+			<town townID="450109" town="邕宁区" />
+			<town townID="450122" town="武鸣县" />
+			<town townID="450123" town="隆安县" />
+			<town townID="450124" town="马山县" />
+			<town townID="450125" town="上林县" />
+			<town townID="450126" town="宾阳县" />
+			<town townID="450127" town="横　县" />
+		</city>
+		<city cityID="450200" city="柳州">
+			<town townID="450201" town="市辖区" />
+			<town townID="450202" town="城中区" />
+			<town townID="450203" town="鱼峰区" />
+			<town townID="450204" town="柳南区" />
+			<town townID="450205" town="柳北区" />
+			<town townID="450221" town="柳江县" />
+			<town townID="450222" town="柳城县" />
+			<town townID="450223" town="鹿寨县" />
+			<town townID="450224" town="融安县" />
+			<town townID="450225" town="融水苗族自治县" />
+			<town townID="450226" town="三江侗族自治县" />
+		</city>
+		<city cityID="450300" city="桂林">
+			<town townID="450301" town="市辖区" />
+			<town townID="450302" town="秀峰区" />
+			<town townID="450303" town="叠彩区" />
+			<town townID="450304" town="象山区" />
+			<town townID="450305" town="七星区" />
+			<town townID="450311" town="雁山区" />
+			<town townID="450321" town="阳朔县" />
+			<town townID="450322" town="临桂县" />
+			<town townID="450323" town="灵川县" />
+			<town townID="450324" town="全州县" />
+			<town townID="450325" town="兴安县" />
+			<town townID="450326" town="永福县" />
+			<town townID="450327" town="灌阳县" />
+			<town townID="450328" town="龙胜各族自治县" />
+			<town townID="450329" town="资源县" />
+			<town townID="450330" town="平乐县" />
+			<town townID="450331" town="荔蒲县" />
+			<town townID="450332" town="恭城瑶族自治县" />
+		</city>
+		<city cityID="450400" city="梧州">
+			<town townID="450401" town="市辖区" />
+			<town townID="450403" town="万秀区" />
+			<town townID="450404" town="蝶山区" />
+			<town townID="450405" town="长洲区" />
+			<town townID="450421" town="苍梧县" />
+			<town townID="450422" town="藤　县" />
+			<town townID="450423" town="蒙山县" />
+			<town townID="450481" town="岑溪市" />
+		</city>
+		<city cityID="450500" city="北海">
+			<town townID="450501" town="市辖区" />
+			<town townID="450502" town="海城区" />
+			<town townID="450503" town="银海区" />
+			<town townID="450512" town="铁山港区" />
+			<town townID="450521" town="合浦县" />
+		</city>
+		<city cityID="450600" city="防城港">
+			<town townID="450601" town="市辖区" />
+			<town townID="450602" town="港口区" />
+			<town townID="450603" town="防城区" />
+			<town townID="450621" town="上思县" />
+			<town townID="450681" town="东兴市" />
+		</city>
+		<city cityID="450700" city="钦州">
+			<town townID="450701" town="市辖区" />
+			<town townID="450702" town="钦南区" />
+			<town townID="450703" town="钦北区" />
+			<town townID="450721" town="灵山县" />
+			<town townID="450722" town="浦北县" />
+		</city>
+		<city cityID="450800" city="贵港">
+			<town townID="450801" town="市辖区" />
+			<town townID="450802" town="港北区" />
+			<town townID="450803" town="港南区" />
+			<town townID="450804" town="覃塘区" />
+			<town townID="450821" town="平南县" />
+			<town townID="450881" town="桂平市" />
+		</city>
+		<city cityID="450900" city="玉林">
+			<town townID="450901" town="市辖区" />
+			<town townID="450902" town="玉州区" />
+			<town townID="450921" town="容　县" />
+			<town townID="450922" town="陆川县" />
+			<town townID="450923" town="博白县" />
+			<town townID="450924" town="兴业县" />
+			<town townID="450981" town="北流市" />
+		</city>
+		<city cityID="451000" city="百色">
+			<town townID="451001" town="市辖区" />
+			<town townID="451002" town="右江区" />
+			<town townID="451021" town="田阳县" />
+			<town townID="451022" town="田东县" />
+			<town townID="451023" town="平果县" />
+			<town townID="451024" town="德保县" />
+			<town townID="451025" town="靖西县" />
+			<town townID="451026" town="那坡县" />
+			<town townID="451027" town="凌云县" />
+			<town townID="451028" town="乐业县" />
+			<town townID="451029" town="田林县" />
+			<town townID="451030" town="西林县" />
+			<town townID="451031" town="隆林各族自治县" />
+		</city>
+		<city cityID="451100" city="贺州">
+			<town townID="451101" town="市辖区" />
+			<town townID="451102" town="八步区" />
+			<town townID="451121" town="昭平县" />
+			<town townID="451122" town="钟山县" />
+			<town townID="451123" town="富川瑶族自治县" />
+		</city>
+		<city cityID="451200" city="河池">
+			<town townID="451201" town="市辖区" />
+			<town townID="451202" town="金城江区" />
+			<town townID="451221" town="南丹县" />
+			<town townID="451222" town="天峨县" />
+			<town townID="451223" town="凤山县" />
+			<town townID="451224" town="东兰县" />
+			<town townID="451225" town="罗城仫佬族自治县" />
+			<town townID="451226" town="环江毛南族自治县" />
+			<town townID="451227" town="巴马瑶族自治县" />
+			<town townID="451228" town="都安瑶族自治县" />
+			<town townID="451229" town="大化瑶族自治县" />
+			<town townID="451281" town="宜州市" />
+		</city>
+		<city cityID="451300" city="来宾">
+			<town townID="451301" town="市辖区" />
+			<town townID="451302" town="兴宾区" />
+			<town townID="451321" town="忻城县" />
+			<town townID="451322" town="象州县" />
+			<town townID="451323" town="武宣县" />
+			<town townID="451324" town="金秀瑶族自治县" />
+			<town townID="451381" town="合山市" />
+		</city>
+		<city cityID="451400" city="崇左">
+			<town townID="451401" town="市辖区" />
+			<town townID="451402" town="江洲区" />
+			<town townID="451421" town="扶绥县" />
+			<town townID="451422" town="宁明县" />
+			<town townID="451423" town="龙州县" />
+			<town townID="451424" town="大新县" />
+			<town townID="451425" town="天等县" />
+			<town townID="451481" town="凭祥市" />
+		</city>
+	</province>
+
+
+	<province ID="22" provinceID="360000" province="江西">
+		<city cityID="360100" city="南昌">
+			<town townID="360101" town="市辖区" />
+			<town townID="360102" town="东湖区" />
+			<town townID="360103" town="西湖区" />
+			<town townID="360104" town="青云谱区" />
+			<town townID="360105" town="湾里区" />
+			<town townID="360111" town="青山湖区" />
+			<town townID="360121" town="南昌县" />
+			<town townID="360122" town="新建县" />
+			<town townID="360123" town="安义县" />
+			<town townID="360124" town="进贤县" />
+		</city>
+		<city cityID="360200" city="景德镇">
+			<town townID="360201" town="市辖区" />
+			<town townID="360202" town="昌江区" />
+			<town townID="360203" town="珠山区" />
+			<town townID="360222" town="浮梁县" />
+			<town townID="360281" town="乐平市" />
+		</city>
+		<city cityID="360300" city="萍乡">
+			<town townID="360301" town="市辖区" />
+			<town townID="360302" town="安源区" />
+			<town townID="360313" town="湘东区" />
+			<town townID="360321" town="莲花县" />
+			<town townID="360322" town="上栗县" />
+			<town townID="360323" town="芦溪县" />
+		</city>
+		<city cityID="360400" city="九江">
+			<town townID="360401" town="市辖区" />
+			<town townID="360402" town="庐山区" />
+			<town townID="360403" town="浔阳区" />
+			<town townID="360421" town="九江县" />
+			<town townID="360423" town="武宁县" />
+			<town townID="360424" town="修水县" />
+			<town townID="360425" town="永修县" />
+			<town townID="360426" town="德安县" />
+			<town townID="360427" town="星子县" />
+			<town townID="360428" town="都昌县" />
+			<town townID="360429" town="湖口县" />
+			<town townID="360430" town="彭泽县" />
+			<town townID="360481" town="瑞昌市" />
+		</city>
+		<city cityID="360500" city="新余">
+			<town townID="360501" town="市辖区" />
+			<town townID="360502" town="渝水区" />
+			<town townID="360521" town="分宜县" />
+		</city>
+		<city cityID="360600" city="鹰潭">
+			<town townID="360601" town="市辖区" />
+			<town townID="360602" town="月湖区" />
+			<town townID="360622" town="余江县" />
+			<town townID="360681" town="贵溪市" />
+		</city>
+		<city cityID="360700" city="赣州">
+			<town townID="360701" town="市辖区" />
+			<town townID="360702" town="章贡区" />
+			<town townID="360721" town="赣　县" />
+			<town townID="360722" town="信丰县" />
+			<town townID="360723" town="大余县" />
+			<town townID="360724" town="上犹县" />
+			<town townID="360725" town="崇义县" />
+			<town townID="360726" town="安远县" />
+			<town townID="360727" town="龙南县" />
+			<town townID="360728" town="定南县" />
+			<town townID="360729" town="全南县" />
+			<town townID="360730" town="宁都县" />
+			<town townID="360731" town="于都县" />
+			<town townID="360732" town="兴国县" />
+			<town townID="360733" town="会昌县" />
+			<town townID="360734" town="寻乌县" />
+			<town townID="360735" town="石城县" />
+			<town townID="360781" town="瑞金市" />
+			<town townID="360782" town="南康市" />
+		</city>
+		<city cityID="360800" city="吉安">
+			<town townID="360801" town="市辖区" />
+			<town townID="360802" town="吉州区" />
+			<town townID="360803" town="青原区" />
+			<town townID="360821" town="吉安县" />
+			<town townID="360822" town="吉水县" />
+			<town townID="360823" town="峡江县" />
+			<town townID="360824" town="新干县" />
+			<town townID="360825" town="永丰县" />
+			<town townID="360826" town="泰和县" />
+			<town townID="360827" town="遂川县" />
+			<town townID="360828" town="万安县" />
+			<town townID="360829" town="安福县" />
+			<town townID="360830" town="永新县" />
+			<town townID="360881" town="井冈山市" />
+		</city>
+		<city cityID="360900" city="宜春">
+			<town townID="360901" town="市辖区" />
+			<town townID="360902" town="袁州区" />
+			<town townID="360921" town="奉新县" />
+			<town townID="360922" town="万载县" />
+			<town townID="360923" town="上高县" />
+			<town townID="360924" town="宜丰县" />
+			<town townID="360925" town="靖安县" />
+			<town townID="360926" town="铜鼓县" />
+			<town townID="360981" town="丰城市" />
+			<town townID="360982" town="樟树市" />
+			<town townID="360983" town="高安市" />
+		</city>
+		<city cityID="361000" city="抚州">
+			<town townID="361001" town="市辖区" />
+			<town townID="361002" town="临川区" />
+			<town townID="361021" town="南城县" />
+			<town townID="361022" town="黎川县" />
+			<town townID="361023" town="南丰县" />
+			<town townID="361024" town="崇仁县" />
+			<town townID="361025" town="乐安县" />
+			<town townID="361026" town="宜黄县" />
+			<town townID="361027" town="金溪县" />
+			<town townID="361028" town="资溪县" />
+			<town townID="361029" town="东乡县" />
+			<town townID="361030" town="广昌县" />
+		</city>
+		<city cityID="361100" city="上饶">
+			<town townID="361101" town="市辖区" />
+			<town townID="361102" town="信州区" />
+			<town townID="361121" town="上饶县" />
+			<town townID="361122" town="广丰县" />
+			<town townID="361123" town="玉山县" />
+			<town townID="361124" town="铅山县" />
+			<town townID="361125" town="横峰县" />
+			<town townID="361126" town="弋阳县" />
+			<town townID="361127" town="余干县" />
+			<town townID="361128" town="鄱阳县" />
+			<town townID="361129" town="万年县" />
+			<town townID="361130" town="婺源县" />
+			<town townID="361181" town="德兴市" />
+		</city>
+	</province>
+
+
+	<province ID="23" provinceID="520000" province="贵州">
+		<city cityID="520100" city="贵阳">
+			<town townID="520101" town="市辖区" />
+			<town townID="520102" town="南明区" />
+			<town townID="520103" town="云岩区" />
+			<town townID="520111" town="花溪区" />
+			<town townID="520112" town="乌当区" />
+			<town townID="520113" town="白云区" />
+			<town townID="520114" town="小河区" />
+			<town townID="520121" town="开阳县" />
+			<town townID="520122" town="息烽县" />
+			<town townID="520123" town="修文县" />
+			<town townID="520181" town="清镇市" />
+		</city>
+		<city cityID="520200" city="六盘水">
+			<town townID="520201" town="钟山区" />
+			<town townID="520203" town="六枝特区" />
+			<town townID="520221" town="水城县" />
+			<town townID="520222" town="盘　县" />
+		</city>
+		<city cityID="520300" city="遵义">
+			<town townID="520301" town="市辖区" />
+			<town townID="520302" town="红花岗区" />
+			<town townID="520303" town="汇川区" />
+			<town townID="520321" town="遵义县" />
+			<town townID="520322" town="桐梓县" />
+			<town townID="520323" town="绥阳县" />
+			<town townID="520324" town="正安县" />
+			<town townID="520325" town="道真仡佬族苗族自治县" />
+			<town townID="520326" town="务川仡佬族苗族自治县" />
+			<town townID="520327" town="凤冈县" />
+			<town townID="520328" town="湄潭县" />
+			<town townID="520329" town="余庆县" />
+			<town townID="520330" town="习水县" />
+			<town townID="520381" town="赤水市" />
+			<town townID="520382" town="仁怀市" />
+		</city>
+		<city cityID="520400" city="安顺">
+			<town townID="520401" town="市辖区" />
+			<town townID="520402" town="西秀区" />
+			<town townID="520421" town="平坝县" />
+			<town townID="520422" town="普定县" />
+			<town townID="520423" town="镇宁布依族苗族自治县" />
+			<town townID="520424" town="关岭布依族苗族自治县" />
+			<town townID="520425" town="紫云苗族布依族自治县" />
+		</city>
+		<city cityID="522200" city="铜仁地区">
+			<town townID="522201" town="铜仁市" />
+			<town townID="522222" town="江口县" />
+			<town townID="522223" town="玉屏侗族自治县" />
+			<town townID="522224" town="石阡县" />
+			<town townID="522225" town="思南县" />
+			<town townID="522226" town="印江土家族苗族自治县" />
+			<town townID="522227" town="德江县" />
+			<town townID="522228" town="沿河土家族自治县" />
+			<town townID="522229" town="松桃苗族自治县" />
+			<town townID="522230" town="万山特区" />
+		</city>
+		<city cityID="522400" city="毕节地区">
+			<town townID="522401" town="毕节市" />
+			<town townID="522422" town="大方县" />
+			<town townID="522423" town="黔西县" />
+			<town townID="522424" town="金沙县" />
+			<town townID="522425" town="织金县" />
+			<town townID="522426" town="纳雍县" />
+			<town townID="522427" town="威宁彝族回族苗族自治县" />
+			<town townID="522428" town="赫章县" />
+		</city>
+		<city cityID="522300" city="黔西南布依族苗族自治州">
+			<town townID="522301" town="兴义市" />
+			<town townID="522322" town="兴仁县" />
+			<town townID="522323" town="普安县" />
+			<town townID="522324" town="晴隆县" />
+			<town townID="522325" town="贞丰县" />
+			<town townID="522326" town="望谟县" />
+			<town townID="522327" town="册亨县" />
+			<town townID="522328" town="安龙县" />
+		</city>
+		<city cityID="522600" city="黔东南苗族侗族自治州">
+			<town townID="522601" town="凯里市" />
+			<town townID="522622" town="黄平县" />
+			<town townID="522623" town="施秉县" />
+			<town townID="522624" town="三穗县" />
+			<town townID="522625" town="镇远县" />
+			<town townID="522626" town="岑巩县" />
+			<town townID="522627" town="天柱县" />
+			<town townID="522628" town="锦屏县" />
+			<town townID="522629" town="剑河县" />
+			<town townID="522630" town="台江县" />
+			<town townID="522631" town="黎平县" />
+			<town townID="522632" town="榕江县" />
+			<town townID="522633" town="从江县" />
+			<town townID="522634" town="雷山县" />
+			<town townID="522635" town="麻江县" />
+			<town townID="522636" town="丹寨县" />
+		</city>
+		<city cityID="522700" city="黔南布依族苗族自治州">
+			<town townID="522701" town="都匀市" />
+			<town townID="522702" town="福泉市" />
+			<town townID="522722" town="荔波县" />
+			<town townID="522723" town="贵定县" />
+			<town townID="522725" town="瓮安县" />
+			<town townID="522726" town="独山县" />
+			<town townID="522727" town="平塘县" />
+			<town townID="522728" town="罗甸县" />
+			<town townID="522729" town="长顺县" />
+			<town townID="522730" town="龙里县" />
+			<town townID="522731" town="惠水县" />
+			<town townID="522732" town="三都水族自治县" />
+		</city>
+	</province>
+
+
+	<province ID="24" provinceID="530000" province="云南">
+		<city cityID="530100" city="昆明">
+			<town townID="530101" town="市辖区" />
+			<town townID="530102" town="五华区" />
+			<town townID="530103" town="盘龙区" />
+			<town townID="530111" town="官渡区" />
+			<town townID="530112" town="西山区" />
+			<town townID="530113" town="东川区" />
+			<town townID="530121" town="呈贡县" />
+			<town townID="530122" town="晋宁县" />
+			<town townID="530124" town="富民县" />
+			<town townID="530125" town="宜良县" />
+			<town townID="530126" town="石林彝族自治县" />
+			<town townID="530127" town="嵩明县" />
+			<town townID="530128" town="禄劝彝族苗族自治县" />
+			<town townID="530129" town="寻甸回族彝族自治县" />
+			<town townID="530181" town="安宁市" />
+		</city>
+		<city cityID="530300" city="曲靖">
+			<town townID="530301" town="市辖区" />
+			<town townID="530302" town="麒麟区" />
+			<town townID="530321" town="马龙县" />
+			<town townID="530322" town="陆良县" />
+			<town townID="530323" town="师宗县" />
+			<town townID="530324" town="罗平县" />
+			<town townID="530325" town="富源县" />
+			<town townID="530326" town="会泽县" />
+			<town townID="530328" town="沾益县" />
+			<town townID="530381" town="宣威市" />
+		</city>
+		<city cityID="530400" city="玉溪">
+			<town townID="530401" town="市辖区" />
+			<town townID="530402" town="红塔区" />
+			<town townID="530421" town="江川县" />
+			<town townID="530422" town="澄江县" />
+			<town townID="530423" town="通海县" />
+			<town townID="530424" town="华宁县" />
+			<town townID="530425" town="易门县" />
+			<town townID="530426" town="峨山彝族自治县" />
+			<town townID="530427" town="新平彝族傣族自治县" />
+			<town townID="530428" town="元江哈尼族彝族傣族自治县" />
+		</city>
+		<city cityID="530500" city="保山">
+			<town townID="530501" town="市辖区" />
+			<town townID="530502" town="隆阳区" />
+			<town townID="530521" town="施甸县" />
+			<town townID="530522" town="腾冲县" />
+			<town townID="530523" town="龙陵县" />
+			<town townID="530524" town="昌宁县" />
+		</city>
+		<city cityID="530600" city="昭通">
+			<town townID="530601" town="市辖区" />
+			<town townID="530602" town="昭阳区" />
+			<town townID="530621" town="鲁甸县" />
+			<town townID="530622" town="巧家县" />
+			<town townID="530623" town="盐津县" />
+			<town townID="530624" town="大关县" />
+			<town townID="530625" town="永善县" />
+			<town townID="530626" town="绥江县" />
+			<town townID="530627" town="镇雄县" />
+			<town townID="530628" town="彝良县" />
+			<town townID="530629" town="威信县" />
+			<town townID="530630" town="水富县" />
+		</city>
+		<city cityID="530700" city="丽江">
+			<town townID="530701" town="市辖区" />
+			<town townID="530702" town="古城区" />
+			<town townID="530721" town="玉龙纳西族自治县" />
+			<town townID="530722" town="永胜县" />
+			<town townID="530723" town="华坪县" />
+			<town townID="530724" town="宁蒗彝族自治县" />
+		</city>
+		<city cityID="530800" city="思茅">
+			<town townID="530801" town="市辖区" />
+			<town townID="530802" town="翠云区" />
+			<town townID="530821" town="普洱哈尼族彝族自治县" />
+			<town townID="530822" town="墨江哈尼族自治县" />
+			<town townID="530823" town="景东彝族自治县" />
+			<town townID="530824" town="景谷傣族彝族自治县" />
+			<town townID="530825" town="镇沅彝族哈尼族拉祜族自治县" />
+			<town townID="530826" town="江城哈尼族彝族自治县" />
+			<town townID="530827" town="孟连傣族拉祜族佤族自治县" />
+			<town townID="530828" town="澜沧拉祜族自治县" />
+			<town townID="530829" town="西盟佤族自治县" />
+		</city>
+		<city cityID="530900" city="临沧">
+			<town townID="530901" town="市辖区" />
+			<town townID="530902" town="临翔区" />
+			<town townID="530921" town="凤庆县" />
+			<town townID="530922" town="云　县" />
+			<town townID="530923" town="永德县" />
+			<town townID="530924" town="镇康县" />
+			<town townID="530925" town="双江拉祜族佤族布朗族傣族自治县" />
+			<town townID="530926" town="耿马傣族佤族自治县" />
+			<town townID="530927" town="沧源佤族自治县" />
+		</city>
+		<city cityID="532300" city="楚雄彝族自治州">
+			<town townID="532301" town="楚雄市" />
+			<town townID="532322" town="双柏县" />
+			<town townID="532323" town="牟定县" />
+			<town townID="532324" town="南华县" />
+			<town townID="532325" town="姚安县" />
+			<town townID="532326" town="大姚县" />
+			<town townID="532327" town="永仁县" />
+			<town townID="532328" town="元谋县" />
+			<town townID="532329" town="武定县" />
+			<town townID="532331" town="禄丰县" />
+		</city>
+		<city cityID="532900" city="大理白族自治州">
+			<town townID="532901" town="大理市" />
+			<town townID="532922" town="漾濞彝族自治县" />
+			<town townID="532923" town="祥云县" />
+			<town townID="532924" town="宾川县" />
+			<town townID="532925" town="弥渡县" />
+			<town townID="532926" town="南涧彝族自治县" />
+			<town townID="532927" town="巍山彝族回族自治县" />
+			<town townID="532928" town="永平县" />
+			<town townID="532929" town="云龙县" />
+			<town townID="532930" town="洱源县" />
+			<town townID="532931" town="剑川县" />
+			<town townID="532932" town="鹤庆县" />
+		</city>
+		<city cityID="533300" city="怒江傈僳族自治州">
+			<town townID="533321" town="泸水县" />
+			<town townID="533323" town="福贡县" />
+			<town townID="533324" town="贡山独龙族怒族自治县" />
+			<town townID="533325" town="兰坪白族普米族自治县" />
+		</city>
+		<city cityID="533400" city="迪庆藏族自治州">
+			<town townID="533421" town="香格里拉县" />
+			<town townID="533422" town="德钦县" />
+			<town townID="533423" town="维西傈僳族自治县" />
+		</city>
+		<city cityID="532500" city="红河哈尼族彝族自治州">
+			<town townID="532501" town="个旧市" />
+			<town townID="532502" town="开远市" />
+			<town townID="532522" town="蒙自县" />
+			<town townID="532523" town="屏边苗族自治县" />
+			<town townID="532524" town="建水县" />
+			<town townID="532525" town="石屏县" />
+			<town townID="532526" town="弥勒县" />
+			<town townID="532527" town="泸西县" />
+			<town townID="532528" town="元阳县" />
+			<town townID="532529" town="红河县" />
+			<town townID="532530" town="金平苗族瑶族傣族自治县" />
+			<town townID="532531" town="绿春县" />
+			<town townID="532532" town="河口瑶族自治县" />
+		</city>
+		<city cityID="532600" city="文山壮族苗族自治州">
+			<town townID="532621" town="文山县" />
+			<town townID="532622" town="砚山县" />
+			<town townID="532623" town="西畴县" />
+			<town townID="532624" town="麻栗坡县" />
+			<town townID="532625" town="马关县" />
+			<town townID="532626" town="丘北县" />
+			<town townID="532627" town="广南县" />
+			<town townID="532628" town="富宁县" />
+		</city>
+		<city cityID="532800" city="西双版纳傣族自治州">
+			<town townID="532801" town="景洪市" />
+			<town townID="532822" town="勐海县" />
+			<town townID="532823" town="勐腊县" />
+		</city>
+		<city cityID="533100" city="德宏傣族景颇族自治州">
+			<town townID="533102" town="瑞丽市" />
+			<town townID="533103" town="潞西市" />
+			<town townID="533122" town="梁河县" />
+			<town townID="533123" town="盈江县" />
+			<town townID="533124" town="陇川县" />
+		</city>
+	</province>
+
+
+	<province ID="25" provinceID="540000" province="西藏">
+		<city cityID="540100" city="拉萨">
+			<town townID="540101" town="市辖区" />
+			<town townID="540102" town="城关区" />
+			<town townID="540121" town="林周县" />
+			<town townID="540122" town="当雄县" />
+			<town townID="540123" town="尼木县" />
+			<town townID="540124" town="曲水县" />
+			<town townID="540125" town="堆龙德庆县" />
+			<town townID="540126" town="达孜县" />
+			<town townID="540127" town="墨竹工卡县" />
+		</city>
+		<city cityID="542100" city="昌都地区">
+			<town townID="542121" town="昌都县" />
+			<town townID="542122" town="江达县" />
+			<town townID="542123" town="贡觉县" />
+			<town townID="542124" town="类乌齐县" />
+			<town townID="542125" town="丁青县" />
+			<town townID="542126" town="察雅县" />
+			<town townID="542127" town="八宿县" />
+			<town townID="542128" town="左贡县" />
+			<town townID="542129" town="芒康县" />
+			<town townID="542132" town="洛隆县" />
+			<town townID="542133" town="边坝县" />
+		</city>
+		<city cityID="542200" city="山南地区">
+			<town townID="542221" town="乃东县" />
+			<town townID="542222" town="扎囊县" />
+			<town townID="542223" town="贡嘎县" />
+			<town townID="542224" town="桑日县" />
+			<town townID="542225" town="琼结县" />
+			<town townID="542226" town="曲松县" />
+			<town townID="542227" town="措美县" />
+			<town townID="542228" town="洛扎县" />
+			<town townID="542229" town="加查县" />
+			<town townID="542231" town="隆子县" />
+			<town townID="542232" town="错那县" />
+			<town townID="542233" town="浪卡子县" />
+		</city>
+		<city cityID="542300" city="日喀则地区">
+			<town townID="542301" town="日喀则市" />
+			<town townID="542322" town="南木林县" />
+			<town townID="542323" town="江孜县" />
+			<town townID="542324" town="定日县" />
+			<town townID="542325" town="萨迦县" />
+			<town townID="542326" town="拉孜县" />
+			<town townID="542327" town="昂仁县" />
+			<town townID="542328" town="谢通门县" />
+			<town townID="542329" town="白朗县" />
+			<town townID="542330" town="仁布县" />
+			<town townID="542331" town="康马县" />
+			<town townID="542332" town="定结县" />
+			<town townID="542333" town="仲巴县" />
+			<town townID="542334" town="亚东县" />
+			<town townID="542335" town="吉隆县" />
+			<town townID="542336" town="聂拉木县" />
+			<town townID="542337" town="萨嘎县" />
+			<town townID="542338" town="岗巴县" />
+		</city>
+		<city cityID="542400" city="那曲地区">
+			<town townID="542421" town="那曲县" />
+			<town townID="542422" town="嘉黎县" />
+			<town townID="542423" town="比如县" />
+			<town townID="542424" town="聂荣县" />
+			<town townID="542425" town="安多县" />
+			<town townID="542426" town="申扎县" />
+			<town townID="542427" town="索　县" />
+			<town townID="542428" town="班戈县" />
+			<town townID="542429" town="巴青县" />
+			<town townID="542430" town="尼玛县" />
+		</city>
+		<city cityID="542500" city="阿里地区">
+			<town townID="542521" town="普兰县" />
+			<town townID="542522" town="札达县" />
+			<town townID="542523" town="噶尔县" />
+			<town townID="542524" town="日土县" />
+			<town townID="542525" town="革吉县" />
+			<town townID="542526" town="改则县" />
+			<town townID="542527" town="措勤县" />
+		</city>
+		<city cityID="542600" city="林芝地区">
+			<town townID="542621" town="林芝县" />
+			<town townID="542622" town="工布江达县" />
+			<town townID="542623" town="米林县" />
+			<town townID="542624" town="墨脱县" />
+			<town townID="542625" town="波密县" />
+			<town townID="542626" town="察隅县" />
+			<town townID="542627" town="朗　县" />
+		</city>
+	</province>
+
+
+	<province ID="26" provinceID="460000" province="海南">
+		<city cityID="460100" city="海口">
+			<town townID="460101" town="市辖区" />
+			<town townID="460105" town="秀英区" />
+			<town townID="460106" town="龙华区" />
+			<town townID="460107" town="琼山区" />
+			<town townID="460108" town="美兰区" />
+		</city>
+		<city cityID="460200" city="三亚">
+			<town townID="460201" town="市辖区" />
+		</city>
+		<city cityID="469002" city="琼海" />
+		<city cityID="469003" city="儋州" />
+		<city cityID="469005" city="文昌" />
+		<city cityID="469006" city="万宁" />
+		<city cityID="469007" city="东方" />
+		<city cityID="469001" city="五指山" />
+		<city cityID="469025" city="定安县" />
+		<city cityID="469026" city="屯昌县" />
+		<city cityID="469027" city="澄迈县" />
+		<city cityID="469028" city="临高县" />
+		<city cityID="469037" city="西沙群岛" />
+		<city cityID="469038" city="南沙群岛" />
+		<city cityID="469039" city="中沙群岛" />
+		<city cityID="469030" city="白沙黎族自治县" />
+		<city cityID="469031" city="昌江黎族自治县" />
+		<city cityID="469033" city="乐东黎族自治县" />
+		<city cityID="469034" city="陵水黎族自治县" />
+		<city cityID="469035" city="保亭黎族苗族自治县" />
+		<city cityID="469036" city="琼中黎族苗族自治县" />
+
+	</province>
+
+
+	<province ID="27" provinceID="620000" province="甘肃">
+		<city cityID="620100" city="兰州">
+			<town townID="620101" town="市辖区" />
+			<town townID="620102" town="城关区" />
+			<town townID="620103" town="七里河区" />
+			<town townID="620104" town="西固区" />
+			<town townID="620105" town="安宁区" />
+			<town townID="620111" town="红古区" />
+			<town townID="620121" town="永登县" />
+			<town townID="620122" town="皋兰县" />
+			<town townID="620123" town="榆中县" />
+		</city>
+		<city cityID="620200" city="嘉峪关">
+			<town townID="620201" town="市辖区" />
+		</city>
+		<city cityID="620300" city="金昌">
+			<town townID="620301" town="市辖区" />
+			<town townID="620302" town="金川区" />
+			<town townID="620321" town="永昌县" />
+		</city>
+		<city cityID="620400" city="白银">
+			<town townID="620401" town="市辖区" />
+			<town townID="620402" town="白银区" />
+			<town townID="620403" town="平川区" />
+			<town townID="620421" town="靖远县" />
+			<town townID="620422" town="会宁县" />
+			<town townID="620423" town="景泰县" />
+		</city>
+		<city cityID="620500" city="天水">
+			<town townID="620501" town="市辖区" />
+			<town townID="620502" town="秦城区" />
+			<town townID="620503" town="北道区" />
+			<town townID="620521" town="清水县" />
+			<town townID="620522" town="秦安县" />
+			<town townID="620523" town="甘谷县" />
+			<town townID="620524" town="武山县" />
+			<town townID="620525" town="张家川回族自治县" />
+		</city>
+		<city cityID="620600" city="武威">
+			<town townID="620601" town="市辖区" />
+			<town townID="620602" town="凉州区" />
+			<town townID="620621" town="民勤县" />
+			<town townID="620622" town="古浪县" />
+			<town townID="620623" town="天祝藏族自治县" />
+		</city>
+		<city cityID="620700" city="张掖">
+			<town townID="620701" town="市辖区" />
+			<town townID="620702" town="甘州区" />
+			<town townID="620721" town="肃南裕固族自治县" />
+			<town townID="620722" town="民乐县" />
+			<town townID="620723" town="临泽县" />
+			<town townID="620724" town="高台县" />
+			<town townID="620725" town="山丹县" />
+		</city>
+		<city cityID="620800" city="平凉">
+			<town townID="620801" town="市辖区" />
+			<town townID="620802" town="崆峒区" />
+			<town townID="620821" town="泾川县" />
+			<town townID="620822" town="灵台县" />
+			<town townID="620823" town="崇信县" />
+			<town townID="620824" town="华亭县" />
+			<town townID="620825" town="庄浪县" />
+			<town townID="620826" town="静宁县" />
+		</city>
+		<city cityID="620900" city="酒泉">
+			<town townID="620901" town="市辖区" />
+			<town townID="620902" town="肃州区" />
+			<town townID="620921" town="金塔县" />
+			<town townID="620922" town="安西县" />
+			<town townID="620923" town="肃北蒙古族自治县" />
+			<town townID="620924" town="阿克塞哈萨克族自治县" />
+			<town townID="620981" town="玉门市" />
+			<town townID="620982" town="敦煌市" />
+		</city>
+		<city cityID="621000" city="庆阳">
+			<town townID="621001" town="市辖区" />
+			<town townID="621002" town="西峰区" />
+			<town townID="621021" town="庆城县" />
+			<town townID="621022" town="环　县" />
+			<town townID="621023" town="华池县" />
+			<town townID="621024" town="合水县" />
+			<town townID="621025" town="正宁县" />
+			<town townID="621026" town="宁　县" />
+			<town townID="621027" town="镇原县" />
+		</city>
+		<city cityID="621100" city="定西">
+			<town townID="621101" town="市辖区" />
+			<town townID="621102" town="安定区" />
+			<town townID="621121" town="通渭县" />
+			<town townID="621122" town="陇西县" />
+			<town townID="621123" town="渭源县" />
+			<town townID="621124" town="临洮县" />
+			<town townID="621125" town="漳　县" />
+			<town townID="621126" town="岷　县" />
+		</city>
+		<city cityID="621200" city="陇南">
+			<town townID="621201" town="市辖区" />
+			<town townID="621202" town="武都区" />
+			<town townID="621221" town="成　县" />
+			<town townID="621222" town="文　县" />
+			<town townID="621223" town="宕昌县" />
+			<town townID="621224" town="康　县" />
+			<town townID="621225" town="西和县" />
+			<town townID="621226" town="礼　县" />
+			<town townID="621227" town="徽　县" />
+			<town townID="621228" town="两当县" />
+		</city>
+		<city cityID="622900" city="临夏回族自治州">
+			<town townID="622901" town="临夏市" />
+			<town townID="622921" town="临夏县" />
+			<town townID="622922" town="康乐县" />
+			<town townID="622923" town="永靖县" />
+			<town townID="622924" town="广河县" />
+			<town townID="622925" town="和政县" />
+			<town townID="622926" town="东乡族自治县" />
+			<town townID="622927" town="积石山保安族东乡族撒拉族自治县" />
+		</city>
+		<city cityID="623000" city="甘南藏族自治州">
+			<town townID="623001" town="合作市" />
+			<town townID="623021" town="临潭县" />
+			<town townID="623022" town="卓尼县" />
+			<town townID="623023" town="舟曲县" />
+			<town townID="623024" town="迭部县" />
+			<town townID="623025" town="玛曲县" />
+			<town townID="623026" town="碌曲县" />
+			<town townID="623027" town="夏河县" />
+		</city>
+	</province>
+
+
+	<province ID="28" provinceID="640000" province="宁夏">
+		<city cityID="640100" city="银川">
+			<town townID="640101" town="市辖区" />
+			<town townID="640104" town="兴庆区" />
+			<town townID="640105" town="西夏区" />
+			<town townID="640106" town="金凤区" />
+			<town townID="640121" town="永宁县" />
+			<town townID="640122" town="贺兰县" />
+			<town townID="640181" town="灵武市" />
+		</city>
+		<city cityID="640200" city="石嘴山">
+			<town townID="640201" town="市辖区" />
+			<town townID="640202" town="大武口区" />
+			<town townID="640205" town="惠农区" />
+			<town townID="640221" town="平罗县" />
+		</city>
+		<city cityID="640300" city="吴忠">
+			<town townID="640301" town="市辖区" />
+			<town townID="640302" town="利通区" />
+			<town townID="640323" town="盐池县" />
+			<town townID="640324" town="同心县" />
+			<town townID="640381" town="青铜峡市" />
+		</city>
+		<city cityID="640400" city="固原">
+			<town townID="640401" town="市辖区" />
+			<town townID="640402" town="原州区" />
+			<town townID="640422" town="西吉县" />
+			<town townID="640423" town="隆德县" />
+			<town townID="640424" town="泾源县" />
+			<town townID="640425" town="彭阳县" />
+		</city>
+		<city cityID="640500" city="中卫">
+			<town townID="640501" town="市辖区" />
+			<town townID="640502" town="沙坡头区" />
+			<town townID="640521" town="中宁县" />
+			<town townID="640522" town="海原县" />
+		</city>
+	</province>
+
+
+	<province ID="29" provinceID="630000" province="青海">
+		<city cityID="630100" city="西宁">
+			<town townID="630101" town="市辖区" />
+			<town townID="630102" town="城东区" />
+			<town townID="630103" town="城中区" />
+			<town townID="630104" town="城西区" />
+			<town townID="630105" town="城北区" />
+			<town townID="630121" town="大通回族土族自治县" />
+			<town townID="630122" town="湟中县" />
+			<town townID="630123" town="湟源县" />
+		</city>
+		<city cityID="632100" city="海东地区">
+			<town townID="632121" town="平安县" />
+			<town townID="632122" town="民和回族土族自治县" />
+			<town townID="632123" town="乐都县" />
+			<town townID="632126" town="互助土族自治县" />
+			<town townID="632127" town="化隆回族自治县" />
+			<town townID="632128" town="循化撒拉族自治县" />
+		</city>
+		<city cityID="632200" city="海北藏族自治州">
+			<town townID="632221" town="门源回族自治县" />
+			<town townID="632222" town="祁连县" />
+			<town townID="632223" town="海晏县" />
+			<town townID="632224" town="刚察县" />
+		</city>
+		<city cityID="632300" city="黄南藏族自治州">
+			<town townID="632321" town="同仁县" />
+			<town townID="632322" town="尖扎县" />
+			<town townID="632323" town="泽库县" />
+			<town townID="632324" town="河南蒙古族自治县" />
+		</city>
+		<city cityID="632500" city="海南藏族自治州">
+			<town townID="632521" town="共和县" />
+			<town townID="632522" town="同德县" />
+			<town townID="632523" town="贵德县" />
+			<town townID="632524" town="兴海县" />
+			<town townID="632525" town="贵南县" />
+		</city>
+		<city cityID="632600" city="果洛藏族自治州">
+			<town townID="632621" town="玛沁县" />
+			<town townID="632622" town="班玛县" />
+			<town townID="632623" town="甘德县" />
+			<town townID="632624" town="达日县" />
+			<town townID="632625" town="久治县" />
+			<town townID="632626" town="玛多县" />
+		</city>
+		<city cityID="632700" city="玉树藏族自治州">
+			<town townID="632721" town="玉树县" />
+			<town townID="632722" town="杂多县" />
+			<town townID="632723" town="称多县" />
+			<town townID="632724" town="治多县" />
+			<town townID="632725" town="囊谦县" />
+			<town townID="632726" town="曲麻莱县" />
+		</city>
+		<city cityID="632800" city="海西蒙古族藏族自治州">
+			<town townID="632801" town="格尔木市" />
+			<town townID="632802" town="德令哈市" />
+			<town townID="632821" town="乌兰县" />
+			<town townID="632822" town="都兰县" />
+			<town townID="632823" town="天峻县" />
+		</city>
+	</province>
+
+
+	<province ID="30" provinceID="650000" province="新疆">
+		<city cityID="650100" city="乌鲁木齐">
+			<town townID="650101" town="市辖区" />
+			<town townID="650102" town="天山区" />
+			<town townID="650103" town="沙依巴克区" />
+			<town townID="650104" town="新市区" />
+			<town townID="650105" town="水磨沟区" />
+			<town townID="650106" town="头屯河区" />
+			<town townID="650107" town="达坂城区" />
+			<town townID="650108" town="东山区" />
+			<town townID="650121" town="乌鲁木齐县" />
+		</city>
+		<city cityID="650200" city="克拉玛依">
+			<town townID="650201" town="市辖区" />
+			<town townID="650202" town="独山子区" />
+			<town townID="650203" town="克拉玛依区" />
+			<town townID="650204" town="白碱滩区" />
+			<town townID="650205" town="乌尔禾区" />
+		</city>
+		<city cityID="652100" city="吐鲁番地区">
+			<town townID="652101" town="吐鲁番市" />
+			<town townID="652122" town="鄯善县" />
+			<town townID="652123" town="托克逊县" />
+		</city>
+		<city cityID="652200" city="哈密地区">
+			<town townID="652201" town="哈密市" />
+			<town townID="652222" town="巴里坤哈萨克自治县" />
+			<town townID="652223" town="伊吾县" />
+		</city>
+		<city cityID="653200" city="和田地区">
+			<town townID="653201" town="和田市" />
+			<town townID="653221" town="和田县" />
+			<town townID="653222" town="墨玉县" />
+			<town townID="653223" town="皮山县" />
+			<town townID="653224" town="洛浦县" />
+			<town townID="653225" town="策勒县" />
+			<town townID="653226" town="于田县" />
+			<town townID="653227" town="民丰县" />
+		</city>
+		<city cityID="652900" city="阿克苏地区">
+			<town townID="652901" town="阿克苏市" />
+			<town townID="652922" town="温宿县" />
+			<town townID="652923" town="库车县" />
+			<town townID="652924" town="沙雅县" />
+			<town townID="652925" town="新和县" />
+			<town townID="652926" town="拜城县" />
+			<town townID="652927" town="乌什县" />
+			<town townID="652928" town="阿瓦提县" />
+			<town townID="652929" town="柯坪县" />
+		</city>
+		<city cityID="653100" city="喀什地区">
+			<town townID="653101" town="喀什市" />
+			<town townID="653121" town="疏附县" />
+			<town townID="653122" town="疏勒县" />
+			<town townID="653123" town="英吉沙县" />
+			<town townID="653124" town="泽普县" />
+			<town townID="653125" town="莎车县" />
+			<town townID="653126" town="叶城县" />
+			<town townID="653127" town="麦盖提县" />
+			<town townID="653128" town="岳普湖县" />
+			<town townID="653129" town="伽师县" />
+			<town townID="653130" town="巴楚县" />
+			<town townID="653131" town="塔什库尔干塔吉克自治县" />
+		</city>
+		<city cityID="654200" city="塔城地区">
+			<town townID="654201" town="塔城市" />
+			<town townID="654202" town="乌苏市" />
+			<town townID="654221" town="额敏县" />
+			<town townID="654223" town="沙湾县" />
+			<town townID="654224" town="托里县" />
+			<town townID="654225" town="裕民县" />
+			<town townID="654226" town="和布克赛尔蒙古自治县" />
+		</city>
+		<city cityID="653000" city="克孜勒苏柯尔克孜自治州">
+			<town townID="653001" town="阿图什市" />
+			<town townID="653022" town="阿克陶县" />
+			<town townID="653023" town="阿合奇县" />
+			<town townID="653024" town="乌恰县" />
+		</city>
+		<city cityID="654300" city="阿勒泰地区">
+			<town townID="654301" town="阿勒泰市" />
+			<town townID="654321" town="布尔津县" />
+			<town townID="654322" town="富蕴县" />
+			<town townID="654323" town="福海县" />
+			<town townID="654324" town="哈巴河县" />
+			<town townID="654325" town="青河县" />
+			<town townID="654326" town="吉木乃县" />
+		</city>
+		<city cityID="652800" city="巴音郭楞蒙古自治州">
+			<town townID="652801" town="库尔勒市" />
+			<town townID="652822" town="轮台县" />
+			<town townID="652823" town="尉犁县" />
+			<town townID="652824" town="若羌县" />
+			<town townID="652825" town="且末县" />
+			<town townID="652826" town="焉耆回族自治县" />
+			<town townID="652827" town="和静县" />
+			<town townID="652828" town="和硕县" />
+			<town townID="652829" town="博湖县" />
+		</city>
+		<city cityID="652300" city="昌吉回族自治州">
+			<town townID="652301" town="昌吉市" />
+			<town townID="652302" town="阜康市" />
+			<town townID="652303" town="米泉市" />
+			<town townID="652323" town="呼图壁县" />
+			<town townID="652324" town="玛纳斯县" />
+			<town townID="652325" town="奇台县" />
+			<town townID="652327" town="吉木萨尔县" />
+			<town townID="652328" town="木垒哈萨克自治县" />
+		</city>
+		<city cityID="652700" city="博尔塔拉蒙古自治州">
+			<town townID="652701" town="博乐市" />
+			<town townID="652722" town="精河县" />
+			<town townID="652723" town="温泉县" />
+		</city>
+		<city cityID="659001" city="石河子" />
+		<city cityID="659002" city="阿拉尔" />
+		<city cityID="659003" city="图木舒克" />
+		<city cityID="659004" city="五家渠" />
+		<city cityID="654000" city="伊犁哈萨克自治州">
+			<town townID="654002" town="伊宁市" />
+			<town townID="654003" town="奎屯市" />
+			<town townID="654021" town="伊宁县" />
+			<town townID="654022" town="察布查尔锡伯自治县" />
+			<town townID="654023" town="霍城县" />
+			<town townID="654024" town="巩留县" />
+			<town townID="654025" town="新源县" />
+			<town townID="654026" town="昭苏县" />
+			<town townID="654027" town="特克斯县" />
+			<town townID="654028" town="尼勒克县" />
+		</city>
+	</province>
+
+	<province ID="35" provinceID="150000" province="内蒙古">
+		<city cityID="150100" city="呼和浩特">
+			<town townID="150101" town="市辖区" />
+			<town townID="150102" town="新城区" />
+			<town townID="150103" town="回民区" />
+			<town townID="150104" town="玉泉区" />
+			<town townID="150105" town="赛罕区" />
+			<town townID="150121" town="土默特左旗" />
+			<town townID="150122" town="托克托县" />
+			<town townID="150123" town="和林格尔县" />
+			<town townID="150124" town="清水河县" />
+			<town townID="150125" town="武川县" />
+		</city>
+		<city cityID="150200" city="包头">
+			<town townID="150201" town="市辖区" />
+			<town townID="150202" town="东河区" />
+			<town townID="150203" town="昆都仑区" />
+			<town townID="150204" town="青山区" />
+			<town townID="150205" town="石拐区" />
+			<town townID="150206" town="白云矿区" />
+			<town townID="150207" town="九原区" />
+			<town townID="150221" town="土默特右旗" />
+			<town townID="150222" town="固阳县" />
+			<town townID="150223" town="达尔罕茂明安联合旗" />
+		</city>
+		<city cityID="150300" city="乌海">
+			<town townID="150301" town="市辖区" />
+			<town townID="150302" town="海勃湾区" />
+			<town townID="150303" town="海南区" />
+			<town townID="150304" town="乌达区" />
+		</city>
+		<city cityID="150400" city="赤峰">
+			<town townID="150401" town="市辖区" />
+			<town townID="150402" town="红山区" />
+			<town townID="150403" town="元宝山区" />
+			<town townID="150404" town="松山区" />
+			<town townID="150421" town="阿鲁科尔沁旗" />
+			<town townID="150422" town="巴林左旗" />
+			<town townID="150423" town="巴林右旗" />
+			<town townID="150424" town="林西县" />
+			<town townID="150425" town="克什克腾旗" />
+			<town townID="150426" town="翁牛特旗" />
+			<town townID="150428" town="喀喇沁旗" />
+			<town townID="150429" town="宁城县" />
+			<town townID="150430" town="敖汉旗" />
+		</city>
+		<city cityID="150500" city="通辽">
+			<town townID="150501" town="市辖区" />
+			<town townID="150502" town="科尔沁区" />
+			<town townID="150521" town="科尔沁左翼中旗" />
+			<town townID="150522" town="科尔沁左翼后旗" />
+			<town townID="150523" town="开鲁县" />
+			<town townID="150524" town="库伦旗" />
+			<town townID="150525" town="奈曼旗" />
+			<town townID="150526" town="扎鲁特旗" />
+			<town townID="150581" town="霍林郭勒市" />
+		</city>
+		<city cityID="150600" city="鄂尔多斯">
+			<town townID="150602" town="东胜区" />
+			<town townID="150621" town="达拉特旗" />
+			<town townID="150622" town="准格尔旗" />
+			<town townID="150623" town="鄂托克前旗" />
+			<town townID="150624" town="鄂托克旗" />
+			<town townID="150625" town="杭锦旗" />
+			<town townID="150626" town="乌审旗" />
+			<town townID="150627" town="伊金霍洛旗" />
+		</city>
+		<city cityID="150700" city="呼伦贝尔">
+			<town townID="150701" town="市辖区" />
+			<town townID="150702" town="海拉尔区" />
+			<town townID="150721" town="阿荣旗" />
+			<town townID="150722" town="莫力达瓦达斡尔族自治旗" />
+			<town townID="150723" town="鄂伦春自治旗" />
+			<town townID="150724" town="鄂温克族自治旗" />
+			<town townID="150725" town="陈巴尔虎旗" />
+			<town townID="150726" town="新巴尔虎左旗" />
+			<town townID="150727" town="新巴尔虎右旗" />
+			<town townID="150781" town="满洲里市" />
+			<town townID="150782" town="牙克石市" />
+			<town townID="150783" town="扎兰屯市" />
+			<town townID="150784" town="额尔古纳市" />
+			<town townID="150785" town="根河市" />
+		</city>
+		<city cityID="150800" city="巴彦淖尔">
+			<town townID="150801" town="市辖区" />
+			<town townID="150802" town="临河区" />
+			<town townID="150821" town="五原县" />
+			<town townID="150822" town="磴口县" />
+			<town townID="150823" town="乌拉特前旗" />
+			<town townID="150824" town="乌拉特中旗" />
+			<town townID="150825" town="乌拉特后旗" />
+			<town townID="150826" town="杭锦后旗" />
+		</city>
+		<city cityID="150900" city="乌兰察布">
+			<town townID="150901" town="市辖区" />
+			<town townID="150902" town="集宁区" />
+			<town townID="150921" town="卓资县" />
+			<town townID="150922" town="化德县" />
+			<town townID="150923" town="商都县" />
+			<town townID="150924" town="兴和县" />
+			<town townID="150925" town="凉城县" />
+			<town townID="150926" town="察哈尔右翼前旗" />
+			<town townID="150927" town="察哈尔右翼中旗" />
+			<town townID="150928" town="察哈尔右翼后旗" />
+			<town townID="150929" town="四子王旗" />
+			<town townID="150981" town="丰镇市" />
+		</city>
+		<city cityID="152200" city="兴安盟">
+			<town townID="152201" town="乌兰浩特市" />
+			<town townID="152202" town="阿尔山市" />
+			<town townID="152221" town="科尔沁右翼前旗" />
+			<town townID="152222" town="科尔沁右翼中旗" />
+			<town townID="152223" town="扎赉特旗" />
+			<town townID="152224" town="突泉县" />
+		</city>
+		<city cityID="152500" city="锡林郭勒盟">
+			<town townID="152501" town="二连浩特市" />
+			<town townID="152502" town="锡林浩特市" />
+			<town townID="152522" town="阿巴嘎旗" />
+			<town townID="152523" town="苏尼特左旗" />
+			<town townID="152524" town="苏尼特右旗" />
+			<town townID="152525" town="东乌珠穆沁旗" />
+			<town townID="152526" town="西乌珠穆沁旗" />
+			<town townID="152527" town="太仆寺旗" />
+			<town townID="152528" town="镶黄旗" />
+			<town townID="152529" town="正镶白旗" />
+			<town townID="152530" town="正蓝旗" />
+			<town townID="152531" town="多伦县" />
+		</city>
+		<city cityID="152900" city="阿拉善盟">
+			<town townID="152921" town="阿拉善左旗" />
+			<town townID="152922" town="阿拉善右旗" />
+			<town townID="152923" town="额济纳旗" />
+		</city>
+	</province>
+
+
+	<province ID="34" provinceID="230000" province="黑龙江">
+		<city cityID="230100" city="哈尔滨">
+			<town townID="230101" town="市辖区" />
+			<town townID="230102" town="道里区" />
+			<town townID="230103" town="南岗区" />
+			<town townID="230104" town="道外区" />
+			<town townID="230106" town="香坊区" />
+			<town townID="230107" town="动力区" />
+			<town townID="230108" town="平房区" />
+			<town townID="230109" town="松北区" />
+			<town townID="230111" town="呼兰区" />
+			<town townID="230123" town="依兰县" />
+			<town townID="230124" town="方正县" />
+			<town townID="230125" town="宾　县" />
+			<town townID="230126" town="巴彦县" />
+			<town townID="230127" town="木兰县" />
+			<town townID="230128" town="通河县" />
+			<town townID="230129" town="延寿县" />
+			<town townID="230181" town="阿城市" />
+			<town townID="230182" town="双城市" />
+			<town townID="230183" town="尚志市" />
+			<town townID="230184" town="五常市" />
+		</city>
+		<city cityID="230200" city="齐齐哈尔">
+			<town townID="230201" town="市辖区" />
+			<town townID="230202" town="龙沙区" />
+			<town townID="230203" town="建华区" />
+			<town townID="230204" town="铁锋区" />
+			<town townID="230205" town="昂昂溪区" />
+			<town townID="230206" town="富拉尔基区" />
+			<town townID="230207" town="碾子山区" />
+			<town townID="230208" town="梅里斯达斡尔族区" />
+			<town townID="230221" town="龙江县" />
+			<town townID="230223" town="依安县" />
+			<town townID="230224" town="泰来县" />
+			<town townID="230225" town="甘南县" />
+			<town townID="230227" town="富裕县" />
+			<town townID="230229" town="克山县" />
+			<town townID="230230" town="克东县" />
+			<town townID="230231" town="拜泉县" />
+			<town townID="230281" town="讷河市" />
+		</city>
+		<city cityID="230300" city="鸡西">
+			<town townID="230301" town="市辖区" />
+			<town townID="230302" town="鸡冠区" />
+			<town townID="230303" town="恒山区" />
+			<town townID="230304" town="滴道区" />
+			<town townID="230305" town="梨树区" />
+			<town townID="230306" town="城子河区" />
+			<town townID="230307" town="麻山区" />
+			<town townID="230321" town="鸡东县" />
+			<town townID="230381" town="虎林市" />
+			<town townID="230382" town="密山市" />
+		</city>
+		<city cityID="230400" city="鹤岗">
+			<town townID="230401" town="市辖区" />
+			<town townID="230402" town="向阳区" />
+			<town townID="230403" town="工农区" />
+			<town townID="230404" town="南山区" />
+			<town townID="230405" town="兴安区" />
+			<town townID="230406" town="东山区" />
+			<town townID="230407" town="兴山区" />
+			<town townID="230421" town="萝北县" />
+			<town townID="230422" town="绥滨县" />
+		</city>
+		<city cityID="230500" city="双鸭山">
+			<town townID="230501" town="市辖区" />
+			<town townID="230502" town="尖山区" />
+			<town townID="230503" town="岭东区" />
+			<town townID="230505" town="四方台区" />
+			<town townID="230506" town="宝山区" />
+			<town townID="230521" town="集贤县" />
+			<town townID="230522" town="友谊县" />
+			<town townID="230523" town="宝清县" />
+			<town townID="230524" town="饶河县" />
+		</city>
+		<city cityID="230600" city="大庆">
+			<town townID="230601" town="市辖区" />
+			<town townID="230602" town="萨尔图区" />
+			<town townID="230603" town="龙凤区" />
+			<town townID="230604" town="让胡路区" />
+			<town townID="230605" town="红岗区" />
+			<town townID="230606" town="大同区" />
+			<town townID="230621" town="肇州县" />
+			<town townID="230622" town="肇源县" />
+			<town townID="230623" town="林甸县" />
+			<town townID="230624" town="杜尔伯特蒙古族自治县" />
+		</city>
+		<city cityID="230700" city="伊春">
+			<town townID="230701" town="市辖区" />
+			<town townID="230702" town="伊春区" />
+			<town townID="230703" town="南岔区" />
+			<town townID="230704" town="友好区" />
+			<town townID="230705" town="西林区" />
+			<town townID="230706" town="翠峦区" />
+			<town townID="230707" town="新青区" />
+			<town townID="230708" town="美溪区" />
+			<town townID="230709" town="金山屯区" />
+			<town townID="230710" town="五营区" />
+			<town townID="230711" town="乌马河区" />
+			<town townID="230712" town="汤旺河区" />
+			<town townID="230713" town="带岭区" />
+			<town townID="230714" town="乌伊岭区" />
+			<town townID="230715" town="红星区" />
+			<town townID="230716" town="上甘岭区" />
+			<town townID="230722" town="嘉荫县" />
+			<town townID="230781" town="铁力市" />
+		</city>
+		<city cityID="230800" city="佳木斯">
+			<town townID="230801" town="市辖区" />
+			<town townID="230802" town="永红区" />
+			<town townID="230803" town="向阳区" />
+			<town townID="230804" town="前进区" />
+			<town townID="230805" town="东风区" />
+			<town townID="230811" town="郊　区" />
+			<town townID="230822" town="桦南县" />
+			<town townID="230826" town="桦川县" />
+			<town townID="230828" town="汤原县" />
+			<town townID="230833" town="抚远县" />
+			<town townID="230881" town="同江市" />
+			<town townID="230882" town="富锦市" />
+		</city>
+		<city cityID="230900" city="七台河">
+			<town townID="230901" town="市辖区" />
+			<town townID="230902" town="新兴区" />
+			<town townID="230903" town="桃山区" />
+			<town townID="230904" town="茄子河区" />
+			<town townID="230921" town="勃利县" />
+		</city>
+		<city cityID="231000" city="牡丹江">
+			<town townID="231001" town="市辖区" />
+			<town townID="231002" town="东安区" />
+			<town townID="231003" town="阳明区" />
+			<town townID="231004" town="爱民区" />
+			<town townID="231005" town="西安区" />
+			<town townID="231024" town="东宁县" />
+			<town townID="231025" town="林口县" />
+			<town townID="231081" town="绥芬河市" />
+			<town townID="231083" town="海林市" />
+			<town townID="231084" town="宁安市" />
+			<town townID="231085" town="穆棱市" />
+		</city>
+		<city cityID="231100" city="黑河">
+			<town townID="231101" town="市辖区" />
+			<town townID="231102" town="爱辉区" />
+			<town townID="231121" town="嫩江县" />
+			<town townID="231123" town="逊克县" />
+			<town townID="231124" town="孙吴县" />
+			<town townID="231181" town="北安市" />
+			<town townID="231182" town="五大连池市" />
+		</city>
+		<city cityID="231200" city="绥化">
+			<town townID="231201" town="市辖区" />
+			<town townID="231202" town="北林区" />
+			<town townID="231221" town="望奎县" />
+			<town townID="231222" town="兰西县" />
+			<town townID="231223" town="青冈县" />
+			<town townID="231224" town="庆安县" />
+			<town townID="231225" town="明水县" />
+			<town townID="231226" town="绥棱县" />
+			<town townID="231281" town="安达市" />
+			<town townID="231282" town="肇东市" />
+			<town townID="231283" town="海伦市" />
+		</city>
+		<city cityID="232700" city="大兴安岭地区">
+			<town townID="232721" town="呼玛县" />
+			<town townID="232722" town="塔河县" />
+			<town townID="232723" town="漠河县" />
+		</city>
+	</province>
+
+	<province ID="31" provinceID="810000" province="香港">
+		<city cityID="853201" city="中西区" />
+		<city cityID="853202" city="湾仔区" />
+		<city cityID="853209" city="观塘区" />
+		<city cityID="853211" city="大埔区" />
+		<city cityID="853212" city="沙田区" />
+		<city cityID="853213" city="西贡区" />
+		<city cityID="853214" city="元朗区" />
+		<city cityID="853215" city="屯门区" />
+		<city cityID="853216" city="荃湾区" />
+		<city cityID="853217" city="葵青区" />
+		<city cityID="853218" city="离岛区" />
+		<city cityID="853205" city="深水埗区" />
+		<city cityID="853206" city="油尖旺区" />
+		<city cityID="853207" city="九龙城区" />
+		<city cityID="853208" city="黄大仙区" />
+		<city cityID="853203" city="东区" />
+		<city cityID="853204" city="南区" />
+		<city cityID="853210" city="北区" />
+	</province>
+
+	<province ID="32" provinceID="820000" province="澳门">
+		<city cityID="953201" city="花地玛堂区" />
+		<city cityID="953202" city="圣安多尼堂区" />
+		<city cityID="953203" city="大堂区" />
+		<city cityID="953204" city="望德堂区" />
+		<city cityID="953205" city="风顺堂区" />
+		<city cityID="953206" city="嘉模堂区" />
+		<city cityID="953207" city="圣方济各堂区" />
+		<city cityID="953208" city="路凼" />
+	</province>
+
+	<province ID="33" provinceID="710000" province="台湾">
+		<city cityID="753201" city="台北市" />
+		<city cityID="753202" city="高雄市" />
+		<city cityID="753203" city="台北县" />
+		<city cityID="753204" city="桃园县" />
+		<city cityID="753205" city="新竹县" />
+		<city cityID="753206" city="苗栗县" />
+		<city cityID="753207" city="台中县" />
+		<city cityID="753208" city="彰化县" />
+		<city cityID="753209" city="南投县" />
+		<city cityID="753210" city="云林县" />
+		<city cityID="753211" city="嘉义县" />
+		<city cityID="753212" city="台南县" />
+		<city cityID="753213" city="高雄县" />
+		<city cityID="753214" city="屏东县" />
+		<city cityID="753215" city="花莲县" />
+		<city cityID="753216" city="台东县" />
+		<city cityID="753217" city="澎湖县" />
+		<city cityID="753218" city="基隆市" />
+		<city cityID="753219" city="新竹市" />
+		<city cityID="753220" city="台中市" />
+		<city cityID="753221" city="嘉义市" />
+		<city cityID="753222" city="台南市" />
+	</province>
+
+
+
+
+</area>

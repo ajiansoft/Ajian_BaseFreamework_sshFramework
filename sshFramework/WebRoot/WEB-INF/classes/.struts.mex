@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="basePKG" location="0,0" size="0,0" />
+  <package name="user" location="0,0" size="0,0">
+    <action name="userAction" location="0,0" size="0,0">
+      <result name="toPage">
+        <resourceEdge source="toPage" routing="0" target="showList.jsp" />
+      </result>
+    </action>
+  </package>
+  <package name="adminPackage" location="0,0" size="0,0" />
+  <webResource name="showList.jsp" path="showList.jsp" location="0,0" size="0,0" />
+  <extendsEdge source="user" target="basePKG" routing="0" />
+  <extendsEdge source="adminPackage" target="basePKG" routing="0" />
+</Struts2Diagram>
+

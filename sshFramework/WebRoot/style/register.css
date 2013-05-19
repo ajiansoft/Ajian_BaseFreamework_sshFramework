@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-position:center top; margin-top:0px; margin-bottom:0px; margin-left:auto; margin-right:auto; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#000000; width:1000px;}
+li,ul{
+	list-style-type:none;}
+li,ul,img,from{border:0px; padding:0px; margin:0px;}
+a:link, a:active, a:visited { font-size:12px; color:#ff0000; text-decoration:none;}
+tr,td{
+	font-size:12px;
+	color:#000000;
+	font-weight:normal;
+}
+a:hover{font-size:12px;color:#1625ef; text-decoration:none;}
+.qingchu{height:0px;line-height:0px;clear: both;}
+.picButton {color:#fff;font-size:14px; margin:0px;  border-width:0px; padding-top:2px;height:22px;width:67px;  border:solid 1px #fb8404; background-color:#ef9516; font-weight:bold;} 
+
+/*-top---*/
+.register_top{width:972px;height:30px; text-align:right; color:#000; font-size:14px; padding-top:10px; margin:0px auto;}
+.register_top a:link,.register_top a:visited,.register_top a:active{font-size:14px;color:#000;}
+.register_top a:hover{font-size:14px;color:#FF0000;}
+.register_center{width:972px; height:auto; margin:0px auto;}
+.register_center_top{width:972px; height:9px;}
+.register_center_content{ width:970px;border-left:solid 1px #f3b00e;border-right:solid 1px #f3b00e;border-bottom:solid 1px #f3b00e;}
+.register_title{font-size:18px; color:#000;}
+.register_title_mi{width:550px;color:#b37129;font-size:16px;background-image: url(../images/register_14.gif);background-repeat: no-repeat;
+	background-position:left bottom; padding-left:0px; margin-bottom:15px; height:40px; padding-top:10px;}
+.register_center_content_renew{ width:970px;}
+	
+	
+	
+

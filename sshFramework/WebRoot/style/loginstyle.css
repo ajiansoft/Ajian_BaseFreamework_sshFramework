@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-position:center top; margin-top:0px; margin-bottom:0px; margin-left:auto; margin-right:auto; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#000000; width:1000px;}
+li,ul{
+	list-style-type:none;}
+li,ul,img,from{border:0px; padding:0px; margin:0px;}
+a:link, a:active, a:visited { font-size:12px; color:#000000; text-decoration:none;}
+tr,td{
+	font-size:12px;
+	color:#000000;
+	font-weight:normal;
+}
+a:hover{font-size:12px;color:#FF0000; text-decoration:none;}
+.qingchu{height:0px;line-height:0px;clear: both; margin:0;}	
+.picButton {background-image:url(..\images\login_bottom_23.gif); background-repeat:repeat-x;  color:#540305;font-size:14px; margin:0px;  border-width:0px; padding-top:2px;height:22px;width:67px;  border:solid 1px #fb8404;   } 
+.picButton a:hover {background-image:url(..\images\login_bottom_23.gif); background-repeat:repeat-x;  color:#450615;font-size:14px; margin:0px;  border-width:0px; padding-top:2px;height:22px;width:67px;  border:solid 1px #fb8404;   }
+.tishi{color:#ff0000;}
+			 
+
+
+
+.login_top{width:1000px; height:20px; margin-top:50px; float:left;}
+.login_center{ width:1000px; height:auto; float:left;}
+.login_Left{width:1000px; height:120px; border-bottom: solid 1px #666666;clear:both; }
+.login_left_title{width:344px; height:120px; float:left; border-right: solid 1px #666666; }
+
+.login_left_title_wz{width:328px;height:20px;margin-top:10px;font-size:18px;text-align: right; color:#4e4646;}
+
+.login_left_model{width:344px; height:388px;float:left; margin-top:0px; clear:both; border-right: solid 1px #666666;padding-top:10px;}
+.login_right{width:540px; height:388px;  margin-left:20px; float:left; padding-top:10px;}
+.login_right_Jm{width:512px; height:342px;margin-left:10px;}
+.login_right_jm_title{width:500px; height:35px; background-image:url(../images/login_06.gif);background-repeat:repeat-x; border:solid 1px #f59344;padding-top:20px; font-size:18px; color:#b32b0c; padding-left:10px; font-weight:bold;}
+.login_right_jm_content{width:509px; height:210px; border-left: solid 1px #f59344; border-right: solid 1px #f59344; border-bottom: solid 1px #f59344; }
+
+			 
+			      
+			  
+			 
+			 
+			
+			  
+			 
+			
+			 
+			
+
+
+	
+	
+	
+	
+

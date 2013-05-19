@@ -1,0 +1,42 @@
+.txt1{
+	width:30px;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:solid 1px;
+   	border-bottom-color:blue;
+	background-color:transparent;
+   	text-align: center;
+}
+.txt2{
+	width:30px;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:solid 1px;
+   	border-bottom-color:red;
+   	text-align: center;
+}
+.but{
+	border:solid 1px;
+	border-color:blue;
+}
+.tagBut1{
+	border:0px;
+	padding:0px;
+	color:#006699;
+	cursor:hand;
+	background-color:transparent;
+	height:16px;
+	width:45px;
+}
+.tagBut2{
+	border:0px;
+	padding:0px;
+	color:blue;
+	cursor:hand;
+	background-color:transparent;
+	border-bottom:1px solid #6699ff;
+	height:16px;
+	width:45px;
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <!DOCTYPE struts PUBLIC 
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+  		<!-- 手动导入struts 默认配置文件 
+    	<include file="struts-default.xml" />
+		 手动导入struts 插件配置 
+		<include file="struts-plugin.xml" />	
+		 去除整个web应用程序中struts标签的模版 
+		<constant name="struts.ui.theme" value="simple" />
+		-->
+		<!-- 上传文件临时路径 -->
+		<constant name="struts.multipart.saveDir" value="/tmp"/> 		
+		<!--声明对象由spring 产生-->
+		<constant name="struts.objectFactory" value="spring" />
+		<!-- 更改action后缀 -->
+		<constant name="struts.action.extension" value="htm,action,do" /> 
+		<!-- 通用的基础package 程序中所有的package继承-->
+		<package name="basePKG" extends="struts-default" >
+			<global-results>
+				<result name="global_error">/pages/comm/exception.jsp</result>
+			</global-results>			
+			<global-exception-mappings>
+			   <!-- 
+			    Exception:表示需要由struts框架来捕获的异常的类型
+	            Result：表示捕获到相应异常类型后应该由哪个逻辑视图来处理 
+			 	-->
+				<exception-mapping result="global_error"
+					exception="com.ssh.framework.exception.BusinessException">
+				</exception-mapping>
+				<exception-mapping result="global_error"
+					exception="com.ssh.framework.exception.SystemException">
+				</exception-mapping>
+				<exception-mapping result="global_error"
+					exception="java.lang.Exception">
+				</exception-mapping>								
+			</global-exception-mappings>			
+		</package>
+		
+		<!-- struts为调试模式 
+		<constant name="struts.devMode" value="true" />
+		-->
+		
+		<!-- 其他配置文件 -->
+		<package name="user" extends="basePKG" namespace="/">
+			<action name="userAction" class="userAction">
+				<result name="toPage">showList.jsp</result>
+			</action>
+		</package>
+		<package name="adminPackage" extends="basePKG" namespace="/">
+		<!-- 配置拦截器，防止客户端表单重复提交 -->
+			<interceptors>
+				<interceptor-stack name="adminToken">
+					<interceptor-ref name="token">
+						<!-- 编辑产品信息方法需要保证不重复提交 -->
+						<param name="includeMethods">editProduct</param>
+						<!-- 公司logo编辑不能重复提交 -->
+						<param name="includeMethods">upLogoFile</param>
+					</interceptor-ref>
+					<interceptor-ref name="basicStack"></interceptor-ref>
+					<interceptor-ref name="defaultStack"></interceptor-ref>
+				</interceptor-stack>
+			</interceptors>
+		</package>
+				
+</struts>

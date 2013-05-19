@@ -1,0 +1,22 @@
+#
+#Mon Jan 17 10:15:13 CST 2011
+genBasicCompId=false
+sessionFactoryName=
+profile=
+daoSFId=
+version=3.1
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+libInstallFolder=/WebRoot/WEB-INF/lib/hibernate
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=/ssmell/hibernate.reveng.xml
+configFile=/ssmell/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true
